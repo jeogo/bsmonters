@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -47,6 +47,20 @@ const API_URL = "/api/submit-order";
 
 // Helpers
 const pad2 = (n: number) => n.toString().padStart(2, "0");
+
+// Meta Pixel safe tracker
+declare global {
+  interface Window {
+    fbq?: (action: string, eventName: string, params?: Record<string, unknown>) => void;
+  }
+}
+function trackFb(event: string, params?: Record<string, unknown>) {
+  if (typeof window !== "undefined" && typeof window.fbq === "function") {
+    try {
+      window.fbq("track", event, params);
+    } catch {}
+  }
+}
 
 function useWilayaOptions() {
   // Sort by id to keep consistent order
@@ -103,6 +117,7 @@ function CheckIcon({ className = "w-6 h-6" }: { className?: string }) {
 
 export default function Page() {
   const [step, setStep] = useState<number>(1);
+  const prevStepRef = useRef<number>(1);
   const [selectedWatchId, setSelectedWatchId] = useState<string | null>(null);
   const [deliveryOption, setDeliveryOption] = useState<DeliveryOption | null>(null);
   const [formData, setFormData] = useState<FormData>({ fullName: "", phone: "" });
@@ -147,6 +162,8 @@ export default function Page() {
     if (typeof window !== "undefined") {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
+  // store previous step for potential analytics comparisons
+  prevStepRef.current = step;
   }, [step]);
 
   const validateStep2 = () => {
@@ -178,6 +195,18 @@ export default function Page() {
   const next = () => {
     if (step === 2 && !validateStep2()) return;
     if (step === 3 && !validateStep3()) return;
+
+    // Fire InitiateCheckout when moving from summary to checkout
+    if (step === 3) {
+      const content = selectedWatchId ? [{ id: selectedWatchId, quantity: 1, item_price: BASE_PRICE }] : undefined;
+      trackFb("InitiateCheckout", {
+        value: total,
+        currency: "DZD",
+        contents: content,
+        content_type: content ? "product" : undefined,
+      });
+    }
+
     if (step < TOTAL_STEPS) setStep((s) => s + 1);
   };
   const back = () => setStep((s) => Math.max(1, s - 1));
@@ -269,6 +298,19 @@ export default function Page() {
 
   const disablePrimary = step === 2 && !selectedWatchId ? true : step === 3 && !deliveryOption ? true : step === 4 && isSubmitting ? true : false;
 
+  // Watch selection handler with Pixel event
+  const handleSelectWatch = (id: string) => {
+    setSelectedWatchId(id);
+    const w = WATCHES.find((x) => x.id === id);
+    trackFb("AddToCart", {
+      content_type: "product",
+      content_ids: [id],
+      content_name: w?.name,
+      value: BASE_PRICE,
+      currency: "DZD",
+    });
+  };
+
   return (
     <div dir="rtl" className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 text-slate-900">
       {/* Floating WhatsApp button */}
@@ -322,7 +364,7 @@ export default function Page() {
               <Step3Watch
                 watches={WATCHES}
                 selectedWatchId={selectedWatchId}
-                onSelect={setSelectedWatchId}
+                onSelect={handleSelectWatch}
                 error={errors["watch"]}
               />
             )}
