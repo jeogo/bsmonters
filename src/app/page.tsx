@@ -112,6 +112,7 @@ export default function Page() {
 
   const wilayaOptions = useWilayaOptions();
   const baladiyaOptions = useBaladiyaOptions(formData.wilayaId);
+  const selectedWatch = useMemo(() => WATCHES.find((w) => w.id === selectedWatchId) || null, [selectedWatchId]);
 
   const total = useMemo(() => {
     if (!deliveryOption) return BASE_PRICE;
@@ -330,6 +331,7 @@ export default function Page() {
                 deliveryOption={deliveryOption}
                 setDeliveryOption={setDeliveryOption}
                 total={total}
+                selectedWatch={selectedWatch}
               />
             )}
             {step === 4 && (
@@ -424,7 +426,7 @@ function Step1Hero() {
             </ul>
           </div>
         </div>
-  <div className="order-1 sm:order-2 mt-4 sm:mt-0">
+        <div className="order-1 sm:order-2 mt-4 sm:mt-0">
           <div className="relative w-full aspect-square overflow-hidden rounded-2xl bg-white/70 backdrop-blur-sm shadow-2xl">
             <video className="absolute inset-0 w-full h-full object-cover" src="/videos/box.mp4" poster="/images/box/box.jpg" autoPlay loop muted playsInline />
             <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
@@ -484,27 +486,43 @@ function Step4Summary({
   deliveryOption,
   setDeliveryOption,
   total,
+  selectedWatch,
 }: {
   deliveryOption: DeliveryOption | null;
   setDeliveryOption: (o: DeliveryOption) => void;
   total: number;
+  selectedWatch: WatchItem | null;
 }) {
   return (
     <StepCard>
   <div className="space-y-8">
         <StepTitle>مراجعة الطلب والتوصيل</StepTitle>
-  <div className="grid sm:grid-cols-2 gap-7">
-          <div className="space-y-5">
-            <h3 className="font-semibold text-slate-800 text-lg">صورة العلبة</h3>
-            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl bg-slate-100 shadow-lg">
-              <Image src="/images/box/box.jpg" alt="صورة العلبة" fill className="object-cover object-center" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-            </div>
-            <div className="text-center p-4 bg-gradient-to-r from-red-50 to-red-100 rounded-xl border-2 border-red-200 shadow-md hover:shadow-lg transition-all duration-300">
-              <p className="text-sm text-slate-600 mb-1">السعر الأساسي</p>
-              <p className="text-3xl font-black text-red-600 drop-shadow-sm">{formatDZD(BASE_PRICE)}</p>
-            </div>
-          </div>
+  <div className="space-y-6">
+    <div className="grid sm:grid-cols-2 gap-6">
+      <div className="space-y-4">
+        <h3 className="font-semibold text-slate-800 text-lg">الساعة المختارة</h3>
+        <div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl bg-slate-100 shadow-lg">
+          {selectedWatch ? (
+            <Image src={selectedWatch.image} alt={selectedWatch.name} fill className="object-cover object-center" />
+          ) : (
+            <div className="grid place-items-center h-full text-slate-500">لم تقم باختيار ساعة</div>
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+        </div>
+      </div>
+      <div className="space-y-4">
+        <h3 className="font-semibold text-slate-800 text-lg">صورة العلبة</h3>
+        <div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl bg-slate-100 shadow-lg">
+          <Image src="/images/box/box.jpg" alt="صورة العلبة" fill className="object-cover object-center" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+        </div>
+      </div>
+    </div>
+    <div className="text-center p-4 bg-gradient-to-r from-red-50 to-red-100 rounded-xl border-2 border-red-200 shadow-md hover:shadow-lg transition-all duration-300">
+      <p className="text-sm text-slate-600 mb-1">السعر الأساسي</p>
+      <p className="text-3xl font-black text-red-600 drop-shadow-sm">{formatDZD(BASE_PRICE)}</p>
+    </div>
+  </div>
           <div className="space-y-6">
             <fieldset className="space-y-4">
               <legend className="font-semibold text-slate-800 text-lg">
@@ -574,7 +592,6 @@ function Step4Summary({
               </div>
             </div>
           </div>
-        </div>
       </div>
     </StepCard>
   );
