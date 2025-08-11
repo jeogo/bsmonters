@@ -1,0 +1,4802 @@
+{
+  "wilayas": [
+    {
+      "code": "01",
+      "name_ar": "أدرار",
+      "name_fr": "Adrar",
+      "baladiyat": [
+        {
+          "name_fr": "Adrar",
+          "name_ar": "أدرار"
+        },
+        {
+          "name_fr": "Tamest",
+          "name_ar": "تامست"
+        },
+        {
+          "name_fr": "Charouine",
+          "name_ar": "شروين"
+        },
+        {
+          "name_fr": "Reggane",
+          "name_ar": "رقان"
+        },
+        {
+          "name_fr": "In Zghmir",
+          "name_ar": "إن زغمير"
+        },
+        {
+          "name_fr": "Tit",
+          "name_ar": "تيت"
+        },
+        {
+          "name_fr": "Ksar Kaddour",
+          "name_ar": "قصر قدور"
+        },
+        {
+          "name_fr": "Tsabit",
+          "name_ar": "تسابيت"
+        },
+        {
+          "name_fr": "Timimoun",
+          "name_ar": "تيميمون"
+        },
+        {
+          "name_fr": "Ouled Said",
+          "name_ar": "أولاد سعيد"
+        },
+        {
+          "name_fr": "Zaouiet Kounta",
+          "name_ar": "زاوية كنتة"
+        },
+        {
+          "name_fr": "Aoulef",
+          "name_ar": "أولف"
+        },
+        {
+          "name_fr": "Timiaouine",
+          "name_ar": "تيمياوين"
+        },
+        {
+          "name_fr": "Sibaâ",
+          "name_ar": "السبع"
+        },
+        {
+          "name_fr": "Metarfa",
+          "name_ar": "المطارفة"
+        },
+        {
+          "name_fr": "Ouled Aissa",
+          "name_ar": "أولاد عيسى"
+        },
+        {
+          "name_fr": "Bouda",
+          "name_ar": "بودة"
+        },
+        {
+          "name_fr": "Aougrout",
+          "name_ar": "أوقروت"
+        },
+        {
+          "name_fr": "Talmine",
+          "name_ar": "تالمين"
+        },
+        {
+          "name_fr": "Bordj Badji Mokhtar",
+          "name_ar": "برج باجي مختار"
+        },
+        {
+          "name_fr": "Sebaa",
+          "name_ar": "السباع"
+        },
+        {
+          "name_fr": "Ouled Ahmed Timmi",
+          "name_ar": "أولاد أحمد تيمي"
+        },
+        {
+          "name_fr": "Fenoughil",
+          "name_ar": "فنوغيل"
+        },
+        {
+          "name_fr": "Tinerkouk",
+          "name_ar": "تينركوك"
+        },
+        {
+          "name_fr": "Deldoul",
+          "name_ar": "دلدول"
+        },
+        {
+          "name_fr": "Sali",
+          "name_ar": "سالي"
+        },
+        {
+          "name_fr": "Akabli",
+          "name_ar": "أقبلي"
+        },
+        {
+          "name_fr": "Tamentit",
+          "name_ar": "تمنتيت"
+        }
+      ]
+    },
+    {
+      "code": "02",
+      "name_ar": "الشلف",
+      "name_fr": "Chlef",
+      "baladiyat": [
+        {
+          "name_fr": "Chlef",
+          "name_ar": "الشلف"
+        },
+        {
+          "name_fr": "Tenes",
+          "name_ar": "تنس"
+        },
+        {
+          "name_fr": "Benairia",
+          "name_ar": "بن عايرية"
+        },
+        {
+          "name_fr": "El Karimia",
+          "name_ar": "الكريمية"
+        },
+        {
+          "name_fr": "Tadjena",
+          "name_ar": "تاجنة"
+        },
+        {
+          "name_fr": "Taougrit",
+          "name_ar": "تاوقريت"
+        },
+        {
+          "name_fr": "Beni Haoua",
+          "name_ar": "بني حواء"
+        },
+        {
+          "name_fr": "Sobha",
+          "name_ar": "الصبحة"
+        },
+        {
+          "name_fr": "Harchoun",
+          "name_ar": "حرشون"
+        },
+        {
+          "name_fr": "Ouled Fares",
+          "name_ar": "أولاد فارس"
+        },
+        {
+          "name_fr": "Sidi Akkacha",
+          "name_ar": "سيدي عكاشة"
+        },
+        {
+          "name_fr": "Boukadir",
+          "name_ar": "بوقادير"
+        },
+        {
+          "name_fr": "Beni Rached",
+          "name_ar": "بني راشد"
+        },
+        {
+          "name_fr": "Talassa",
+          "name_ar": "تلعصة"
+        },
+        {
+          "name_fr": "Herenfa",
+          "name_ar": "حرنفة"
+        },
+        {
+          "name_fr": "Oued Goussine",
+          "name_ar": "وادي قوسين"
+        },
+        {
+          "name_fr": "Dahra",
+          "name_ar": "الظهرة"
+        },
+        {
+          "name_fr": "Ouled Ben Abdelkader",
+          "name_ar": "أولاد بن عبد القادر"
+        },
+        {
+          "name_fr": "Bouzeghaia",
+          "name_ar": "بوزغاية"
+        },
+        {
+          "name_fr": "Abou El Hassen",
+          "name_ar": "أبو الحسن"
+        },
+        {
+          "name_fr": "El Marsa",
+          "name_ar": "المرسى"
+        },
+        {
+          "name_fr": "Chettia",
+          "name_ar": "الشطية"
+        },
+        {
+          "name_fr": "Sidi Abderrahmane",
+          "name_ar": "سيدي عبد الرحمان"
+        },
+        {
+          "name_fr": "Moussadek",
+          "name_ar": "مصدق"
+        },
+        {
+          "name_fr": "El Hadjadj",
+          "name_ar": "الحجاج"
+        },
+        {
+          "name_fr": "Labiod Medjadja",
+          "name_ar": "الأبيض مجاجة"
+        },
+        {
+          "name_fr": "Oued Sly",
+          "name_ar": "وادي سلي"
+        },
+        {
+          "name_fr": "Abou El Hassan",
+          "name_ar": "أبو الحسن"
+        },
+        {
+          "name_fr": "El Karimia",
+          "name_ar": "الكريمية"
+        },
+        {
+          "name_fr": "Oum Drou",
+          "name_ar": "أم الدرو"
+        },
+        {
+          "name_fr": "Sendjas",
+          "name_ar": "سنجاس"
+        },
+        {
+          "name_fr": "Zeboudja",
+          "name_ar": "زبوجة"
+        },
+        {
+          "name_fr": "Oued Fodda",
+          "name_ar": "وادي الفضة"
+        },
+        {
+          "name_fr": "Ouled Abbes",
+          "name_ar": "أولاد عباس"
+        },
+        {
+          "name_fr": "Ain Merane",
+          "name_ar": "عين مران"
+        }
+      ]
+    },
+    {
+      "code": "03",
+      "name_ar": "الأغواط",
+      "name_fr": "Laghouat",
+      "baladiyat": [
+        {
+          "name_fr": "Laghouat",
+          "name_ar": "الأغواط"
+        },
+        {
+          "name_fr": "Ksar El Hirane",
+          "name_ar": "قصر الحيران"
+        },
+        {
+          "name_fr": "Bennasser Benchohra",
+          "name_ar": "بن ناصر بن شهرة"
+        },
+        {
+          "name_fr": "Sidi Makhlouf",
+          "name_ar": "سيدي مخلوف"
+        },
+        {
+          "name_fr": "Hassi Delaa",
+          "name_ar": "حاسي دلاع"
+        },
+        {
+          "name_fr": "Hassi R'Mel",
+          "name_ar": "حاسي الرمل"
+        },
+        {
+          "name_fr": "Ain Madhi",
+          "name_ar": "عين ماضي"
+        },
+        {
+          "name_fr": "Tadjmout",
+          "name_ar": "تاجموت"
+        },
+        {
+          "name_fr": "Kheneg",
+          "name_ar": "الخنق"
+        },
+        {
+          "name_fr": "Gueltat Sidi Saad",
+          "name_ar": "قلتة سيدي سعد"
+        },
+        {
+          "name_fr": "Ain Sidi Ali",
+          "name_ar": "عين سيدي علي"
+        },
+        {
+          "name_fr": "Beidha",
+          "name_ar": "البيضاء"
+        },
+        {
+          "name_fr": "Brida",
+          "name_ar": "بريدة"
+        },
+        {
+          "name_fr": "El Ghicha",
+          "name_ar": "الغيشة"
+        },
+        {
+          "name_fr": "El Houaita",
+          "name_ar": "الحويطة"
+        },
+        {
+          "name_fr": "Sebgag",
+          "name_ar": "سبقاق"
+        },
+        {
+          "name_fr": "Taouiala",
+          "name_ar": "تاويالة"
+        },
+        {
+          "name_fr": "Tadjrouna",
+          "name_ar": "تاجرونة"
+        },
+        {
+          "name_fr": "Aflou",
+          "name_ar": "أفلو"
+        },
+        {
+          "name_fr": "El Assafia",
+          "name_ar": "العسافية"
+        },
+        {
+          "name_fr": "Oued Morra",
+          "name_ar": "وادي مرة"
+        },
+        {
+          "name_fr": "Oued M'Zi",
+          "name_ar": "وادي مزي"
+        },
+        {
+          "name_fr": "El Beidha",
+          "name_ar": "البيضاء"
+        },
+        {
+          "name_fr": "Hadj Mechri",
+          "name_ar": "حاج مشري"
+        }
+      ]
+    },
+    {
+      "code": "04",
+      "name_ar": "أم البواقي",
+      "name_fr": "Oum El Bouaghi",
+      "baladiyat": [
+        {
+          "name_fr": "Oum El Bouaghi",
+          "name_ar": "أم البواقي"
+        },
+        {
+          "name_fr": "Ain Beida",
+          "name_ar": "عين البيضاء"
+        },
+        {
+          "name_fr": "Ain M'Lila",
+          "name_ar": "عين مليلة"
+        },
+        {
+          "name_fr": "Behir Chergui",
+          "name_ar": "بحير الشرقي"
+        },
+        {
+          "name_fr": "El Belala",
+          "name_ar": "البلالة"
+        },
+        {
+          "name_fr": "Sigus",
+          "name_ar": "سيقوس"
+        },
+        {
+          "name_fr": "El Amiria",
+          "name_ar": "الأميرية"
+        },
+        {
+          "name_fr": "Canrobert",
+          "name_ar": "كانروبير"
+        },
+        {
+          "name_fr": "Ouled Hamla",
+          "name_ar": "أولاد حملة"
+        },
+        {
+          "name_fr": "Dhalaa",
+          "name_ar": "الضلعة"
+        },
+        {
+          "name_fr": "Ain Babouche",
+          "name_ar": "عين بابوش"
+        },
+        {
+          "name_fr": "Berriche",
+          "name_ar": "بريش"
+        },
+        {
+          "name_fr": "Ouled Zouai",
+          "name_ar": "أولاد زواي"
+        },
+        {
+          "name_fr": "Zorg",
+          "name_ar": "زرق"
+        },
+        {
+          "name_fr": "El Djazia",
+          "name_ar": "الجازية"
+        },
+        {
+          "name_fr": "Ain Kercha",
+          "name_ar": "عين كرشة"
+        },
+        {
+          "name_fr": "Hanchir Toumghani",
+          "name_ar": "هنشير تومغاني"
+        },
+        {
+          "name_fr": "El Fedjoudj Boughrara Saoudi",
+          "name_ar": "الفجوج بوغرارة سعودي"
+        },
+        {
+          "name_fr": "Ouled Gacem",
+          "name_ar": "أولاد قاسم"
+        },
+        {
+          "name_fr": "El Harmilia",
+          "name_ar": "الحرميلية"
+        },
+        {
+          "name_fr": "Rahia",
+          "name_ar": "راحية"
+        },
+        {
+          "name_fr": "Ain Diss",
+          "name_ar": "عين الديس"
+        },
+        {
+          "name_fr": "Fkirina",
+          "name_ar": "فكيرينة"
+        },
+        {
+          "name_fr": "Souk Naamane",
+          "name_ar": "سوق نعمان"
+        },
+        {
+          "name_fr": "Zarouria",
+          "name_ar": "زرورية"
+        },
+        {
+          "name_fr": "Ksar Sbahi",
+          "name_ar": "قصر صباحي"
+        },
+        {
+          "name_fr": "Oued Nini",
+          "name_ar": "وادي الليني"
+        },
+        {
+          "name_fr": "Meskiana",
+          "name_ar": "مسكيانة"
+        },
+        {
+          "name_fr": "Bir Chouahada",
+          "name_ar": "بير الشهداء"
+        }
+      ]
+    },
+    {
+      "code": "05",
+      "name_ar": "باتنة",
+      "name_fr": "Batna",
+      "baladiyat": [
+        {
+          "name_fr": "Batna",
+          "name_ar": "باتنة"
+        },
+        {
+          "name_fr": "Ghassira",
+          "name_ar": "غاسيرة"
+        },
+        {
+          "name_fr": "Maafa",
+          "name_ar": "معافة"
+        },
+        {
+          "name_fr": "Merouana",
+          "name_ar": "مروانة"
+        },
+        {
+          "name_fr": "Seriana",
+          "name_ar": "سريانة"
+        },
+        {
+          "name_fr": "Menaa",
+          "name_ar": "منعة"
+        },
+        {
+          "name_fr": "El Madher",
+          "name_ar": "المعذر"
+        },
+        {
+          "name_fr": "Tazoult-Lambese",
+          "name_ar": "تازولت-لامبيز"
+        },
+        {
+          "name_fr": "N'Gaous",
+          "name_ar": "نقاوس"
+        },
+        {
+          "name_fr": "Guigba",
+          "name_ar": "قيقبة"
+        },
+        {
+          "name_fr": "Inoughissen",
+          "name_ar": "إينوغيسن"
+        },
+        {
+          "name_fr": "Ouyoun El Assafir",
+          "name_ar": "عيون العصافير"
+        },
+        {
+          "name_fr": "Djerma",
+          "name_ar": "جرمة"
+        },
+        {
+          "name_fr": "Bitam",
+          "name_ar": "بيطام"
+        },
+        {
+          "name_fr": "Abdelkader",
+          "name_ar": "عبد القادر"
+        },
+        {
+          "name_fr": "Arris",
+          "name_ar": "أريس"
+        },
+        {
+          "name_fr": "Kimmel",
+          "name_ar": "كيمل"
+        },
+        {
+          "name_fr": "Tilatou",
+          "name_ar": "تيلاطو"
+        },
+        {
+          "name_fr": "Ain Djasser",
+          "name_ar": "عين جاسر"
+        },
+        {
+          "name_fr": "Ouled Sellam",
+          "name_ar": "أولاد سلام"
+        },
+        {
+          "name_fr": "Tigherghar",
+          "name_ar": "تيغرغار"
+        },
+        {
+          "name_fr": "Ain Yagout",
+          "name_ar": "عين ياقوت"
+        },
+        {
+          "name_fr": "Fesdis",
+          "name_ar": "فسديس"
+        },
+        {
+          "name_fr": "Sefiane",
+          "name_ar": "سفيان"
+        },
+        {
+          "name_fr": "Rahbat",
+          "name_ar": "رحبة"
+        },
+        {
+          "name_fr": "Tighanimine",
+          "name_ar": "تيغانيمين"
+        },
+        {
+          "name_fr": "Lemsane",
+          "name_ar": "لمسان"
+        },
+        {
+          "name_fr": "Ksar Bellezma",
+          "name_ar": "قصر بلزمة"
+        },
+        {
+          "name_fr": "Seggana",
+          "name_ar": "سقانة"
+        },
+        {
+          "name_fr": "Ichmoul",
+          "name_ar": "إشمول"
+        },
+        {
+          "name_fr": "Foum Toub",
+          "name_ar": "فم الطوب"
+        },
+        {
+          "name_fr": "Beni Foudhala El Hakania",
+          "name_ar": "بني فضالة الحقانية"
+        },
+        {
+          "name_fr": "Oued El Ma",
+          "name_ar": "وادي الماء"
+        },
+        {
+          "name_fr": "Talkhamt",
+          "name_ar": "تالخمت"
+        },
+        {
+          "name_fr": "Bouzina",
+          "name_ar": "بوزينة"
+        },
+        {
+          "name_fr": "Chemora",
+          "name_ar": "شمرة"
+        },
+        {
+          "name_fr": "Oued Chaaba",
+          "name_ar": "وادي الشعبة"
+        },
+        {
+          "name_fr": "Taxlent",
+          "name_ar": "تاكسلنت"
+        },
+        {
+          "name_fr": "Gosbat",
+          "name_ar": "قصبات"
+        },
+        {
+          "name_fr": "Ouled Aouf",
+          "name_ar": "أولاد عوف"
+        },
+        {
+          "name_fr": "Boulhilet",
+          "name_ar": "بولهيلات"
+        },
+        {
+          "name_fr": "Lazrou",
+          "name_ar": "لازرو"
+        },
+        {
+          "name_fr": "Boumagueur",
+          "name_ar": "بومقر"
+        },
+        {
+          "name_fr": "Barika",
+          "name_ar": "بريكة"
+        },
+        {
+          "name_fr": "Djezzar",
+          "name_ar": "جذار"
+        },
+        {
+          "name_fr": "Tkout",
+          "name_ar": "تكوت"
+        },
+        {
+          "name_fr": "Ain Touta",
+          "name_ar": "عين التوتة"
+        },
+        {
+          "name_fr": "Hidoussa",
+          "name_ar": "حيدوسة"
+        },
+        {
+          "name_fr": "Teniet El Abed",
+          "name_ar": "ثنية العابد"
+        },
+        {
+          "name_fr": "Oued Taga",
+          "name_ar": "وادي الطاقة"
+        },
+        {
+          "name_fr": "Ouled Fadel",
+          "name_ar": "أولاد فاضل"
+        },
+        {
+          "name_fr": "Timgad",
+          "name_ar": "تيمقاد"
+        },
+        {
+          "name_fr": "Ras El Aioun",
+          "name_ar": "رأس العيون"
+        },
+        {
+          "name_fr": "Chir",
+          "name_ar": "شير"
+        },
+        {
+          "name_fr": "Ouled Si Slimane",
+          "name_ar": "أولاد سي سليمان"
+        },
+        {
+          "name_fr": "Zanat El Beida",
+          "name_ar": "زانة البيضاء"
+        },
+        {
+          "name_fr": "M'Doukal",
+          "name_ar": "مدوكال"
+        },
+        {
+          "name_fr": "Ouled Ammar",
+          "name_ar": "أولاد عمار"
+        },
+        {
+          "name_fr": "El Hassi",
+          "name_ar": "الحاسي"
+        },
+        {
+          "name_fr": "Lambiridi",
+          "name_ar": "لامبيريدي"
+        },
+        {
+          "name_fr": "Beni Foudhala",
+          "name_ar": "بني فضالة"
+        },
+        {
+          "name_fr": "El Madher",
+          "name_ar": "المعذر"
+        }
+      ]
+    },
+    {
+      "code": "06",
+      "name_ar": "بجاية",
+      "name_fr": "Bejaia",
+      "baladiyat": [
+        {
+          "name_fr": "Bejaia",
+          "name_ar": "بجاية"
+        },
+        {
+          "name_fr": "Amizour",
+          "name_ar": "أميزور"
+        },
+        {
+          "name_fr": "Tichy",
+          "name_ar": "تيشي"
+        },
+        {
+          "name_fr": "El Kseur",
+          "name_ar": "القصر"
+        },
+        {
+          "name_fr": "Sidi Aich",
+          "name_ar": "سيدي عيش"
+        },
+        {
+          "name_fr": "Akbou",
+          "name_ar": "أقبو"
+        },
+        {
+          "name_fr": "Ighram",
+          "name_ar": "إغرم"
+        },
+        {
+          "name_fr": "Kherrata",
+          "name_ar": "خراطة"
+        },
+        {
+          "name_fr": "Adekar",
+          "name_ar": "أدكار"
+        },
+        {
+          "name_fr": "Tazmalt",
+          "name_ar": "تازمالت"
+        },
+        {
+          "name_fr": "Barbacha",
+          "name_ar": "بارباشة"
+        },
+        {
+          "name_fr": "Beni Maouche",
+          "name_ar": "بني معوش"
+        },
+        {
+          "name_fr": "Chemini",
+          "name_ar": "شميني"
+        },
+        {
+          "name_fr": "Darguina",
+          "name_ar": "درقينة"
+        },
+        {
+          "name_fr": "Melbou",
+          "name_ar": "ملبو"
+        },
+        {
+          "name_fr": "Souk El Tenine",
+          "name_ar": "سوق الإثنين"
+        },
+        {
+          "name_fr": "Taskriout",
+          "name_ar": "تاسكريوت"
+        },
+        {
+          "name_fr": "Tibane",
+          "name_ar": "طيبان"
+        },
+        {
+          "name_fr": "Tifra",
+          "name_ar": "تيفرة"
+        },
+        {
+          "name_fr": "Timezrit",
+          "name_ar": "تيمزريت"
+        },
+        {
+          "name_fr": "Tinebdar",
+          "name_ar": "تينبدار"
+        },
+        {
+          "name_fr": "Tizi N'Berber",
+          "name_ar": "تيزي نبربر"
+        },
+        {
+          "name_fr": "Akfadou",
+          "name_ar": "أكفادو"
+        },
+        {
+          "name_fr": "Aokas",
+          "name_ar": "أوقاس"
+        },
+        {
+          "name_fr": "Bouhamza",
+          "name_ar": "بوهامزة"
+        },
+        {
+          "name_fr": "Boukhelifa",
+          "name_ar": "بوخليفة"
+        },
+        {
+          "name_fr": "Ouzellaguen",
+          "name_ar": "أوزلاقن"
+        },
+        {
+          "name_fr": "Smaoun",
+          "name_ar": "سماعون"
+        },
+        {
+          "name_fr": "Tala Hamza",
+          "name_ar": "تالة حمزة"
+        }
+      ]
+    },
+    {
+      "code": "07",
+      "name_ar": "بسكرة",
+      "name_fr": "Biskra",
+      "baladiyat": [
+        {
+          "name_fr": "Biskra",
+          "name_ar": "بسكرة"
+        },
+        {
+          "name_fr": "El Kantara",
+          "name_ar": "القنطرة"
+        },
+        {
+          "name_fr": "Sidi Okba",
+          "name_ar": "سيدي عقبة"
+        },
+        {
+          "name_fr": "Tolga",
+          "name_ar": "طولقة"
+        },
+        {
+          "name_fr": "Ourlal",
+          "name_ar": "أورلال"
+        },
+        {
+          "name_fr": "Foughala",
+          "name_ar": "فوغالة"
+        },
+        {
+          "name_fr": "El Haouch",
+          "name_ar": "الحوش"
+        },
+        {
+          "name_fr": "Lichana",
+          "name_ar": "ليشانة"
+        },
+        {
+          "name_fr": "Mekhadma",
+          "name_ar": "مخادمة"
+        },
+        {
+          "name_fr": "Zeribet El Oued",
+          "name_ar": "زريبة الوادي"
+        },
+        {
+          "name_fr": "El Outaya",
+          "name_ar": "الوطاية"
+        },
+        {
+          "name_fr": "Lioua",
+          "name_ar": "لواء"
+        },
+        {
+          "name_fr": "Chetma",
+          "name_ar": "شطمة"
+        },
+        {
+          "name_fr": "Branis",
+          "name_ar": "برانيس"
+        },
+        {
+          "name_fr": "El Ghrous",
+          "name_ar": "الغروس"
+        },
+        {
+          "name_fr": "Ain Naga",
+          "name_ar": "عين الناقة"
+        },
+        {
+          "name_fr": "Doucen",
+          "name_ar": "دوسن"
+        },
+        {
+          "name_fr": "M'Lili",
+          "name_ar": "المليلي"
+        },
+        {
+          "name_fr": "Oumache",
+          "name_ar": "أوماش"
+        },
+        {
+          "name_fr": "Bordj Ben Azzouz",
+          "name_ar": "برج بن عزوز"
+        },
+        {
+          "name_fr": "Sidi Khaled",
+          "name_ar": "سيدي خالد"
+        },
+        {
+          "name_fr": "Besbes",
+          "name_ar": "بسباس"
+        },
+        {
+          "name_fr": "Ouled Djellal",
+          "name_ar": "أولاد جلال"
+        }
+      ]
+    },
+    {
+      "code": "08",
+      "name_ar": "بشار",
+      "name_fr": "Bechar",
+      "baladiyat": [
+        {
+          "name_fr": "Bechar",
+          "name_ar": "بشار"
+        },
+        {
+          "name_fr": "Abadla",
+          "name_ar": "العبادلة"
+        },
+        {
+          "name_fr": "Beni Ounif",
+          "name_ar": "بني ونيف"
+        },
+        {
+          "name_fr": "Taghit",
+          "name_ar": "تاغيت"
+        },
+        {
+          "name_fr": "Kenadsa",
+          "name_ar": "القنادسة"
+        },
+        {
+          "name_fr": "Beni Abbes",
+          "name_ar": "بني عباس"
+        },
+        {
+          "name_fr": "Tamtert",
+          "name_ar": "تامترت"
+        },
+        {
+          "name_fr": "Erg Ferradj",
+          "name_ar": "عرق فراج"
+        },
+        {
+          "name_fr": "Igli",
+          "name_ar": "إقلي"
+        },
+        {
+          "name_fr": "El Ouata",
+          "name_ar": "الواتة"
+        },
+        {
+          "name_fr": "Ksabi",
+          "name_ar": "القصابي"
+        },
+        {
+          "name_fr": "Boukais",
+          "name_ar": "بوقايس"
+        }
+      ]
+    },
+    {
+      "code": "09",
+      "name_ar": "البليدة",
+      "name_fr": "Blida",
+      "baladiyat": [
+        {
+          "name_fr": "Blida",
+          "name_ar": "البليدة"
+        },
+        {
+          "name_fr": "Boufarik",
+          "name_ar": "بوفاريك"
+        },
+        {
+          "name_fr": "Bouinan",
+          "name_ar": "بوعينان"
+        },
+        {
+          "name_fr": "Oued El Alleug",
+          "name_ar": "وادي العلايق"
+        },
+        {
+          "name_fr": "Ouled Yaich",
+          "name_ar": "أولاد يعيش"
+        },
+        {
+          "name_fr": "Beni Mered",
+          "name_ar": "بني مراد"
+        },
+        {
+          "name_fr": "Mouzaia",
+          "name_ar": "موزاية"
+        },
+        {
+          "name_fr": "Chrea",
+          "name_ar": "الشريعة"
+        },
+        {
+          "name_fr": "Hammam Melouane",
+          "name_ar": "حمام ملوان"
+        },
+        {
+          "name_fr": "Soumaa",
+          "name_ar": "الصومعة"
+        },
+        {
+          "name_fr": "Larbaa",
+          "name_ar": "الأربعاء"
+        },
+        {
+          "name_fr": "Bougara",
+          "name_ar": "بوقرة"
+        },
+        {
+          "name_fr": "Ben Khéllil",
+          "name_ar": "بن خليل"
+        },
+        {
+          "name_fr": "Chebli",
+          "name_ar": "الشبلي"
+        },
+        {
+          "name_fr": "Meftah",
+          "name_ar": "مفتاح"
+        },
+        {
+          "name_fr": "Ouled Slama",
+          "name_ar": "أولاد سلامة"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name_ar": "البويرة",
+      "name_fr": "Bouira",
+      "baladiyat": [
+        {
+          "name_fr": "Bouira",
+          "name_ar": "البويرة"
+        },
+        {
+          "name_fr": "Ain Bessem",
+          "name_ar": "عين بسام"
+        },
+        {
+          "name_fr": "Haizer",
+          "name_ar": "حيزر"
+        },
+        {
+          "name_fr": "Souk El Khemis",
+          "name_ar": "سوق الخميس"
+        },
+        {
+          "name_fr": "Lazharia",
+          "name_ar": "لذّارية"
+        },
+        {
+          "name_fr": "El Asnam",
+          "name_ar": "الأASNAM"
+        },
+        {
+          "name_fr": "Saharidj",
+          "name_ar": "صهاريج"
+        },
+        {
+          "name_fr": "Guerrouma",
+          "name_ar": "قيرومة"
+        },
+        {
+          "name_fr": "M'Chedallah",
+          "name_ar": "امشدالة"
+        },
+        {
+          "name_fr": "El Hakimia",
+          "name_ar": "الحكيمية"
+        },
+        {
+          "name_fr": "Mezdour",
+          "name_ar": "مزور"
+        },
+        {
+          "name_fr": "Ath Mansour Taourirt",
+          "name_ar": "آ. منصور تاوريرت"
+        },
+        {
+          "name_fr": "Ammal",
+          "name_ar": "أملال"
+        },
+        {
+          "name_fr": "Bindjabbed",
+          "name_ar": "بنجاباد"
+        },
+        {
+          "name_fr": "El Adjiba",
+          "name_ar": "الأدجبة"
+        },
+        {
+          "name_fr": "El Kseur",
+          "name_ar": "القسور"
+        },
+        {
+          "name_fr": "Haizer",
+          "name_ar": "حيزر"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name_ar": "تمنراست",
+      "name_fr": "Tamanrasset",
+      "baladiyat": [
+        {
+          "name_fr": "Tamanrasset",
+          "name_ar": "تمنراست"
+        },
+        {
+          "name_fr": "Abalessa",
+          "name_ar": "أبلسة"
+        },
+        {
+          "name_fr": "In Salah",
+          "name_ar": "إن صالح"
+        },
+        {
+          "name_fr": "Tin Zaouatine",
+          "name_ar": "تين زاواتين"
+        },
+        {
+          "name_fr": "Tazrouk",
+          "name_ar": "تازروك"
+        },
+        {
+          "name_fr": "Idles",
+          "name_ar": "إيدلس"
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "name_ar": "تبسة",
+      "name_fr": "Tébessa",
+      "baladiyat": [
+        {
+          "name_fr": "Tebessa",
+          "name_ar": "تبسة"
+        },
+        {
+          "name_fr": "Bir El Ater",
+          "name_ar": "بير العاتر"
+        },
+        {
+          "name_fr": "Cheria",
+          "name_ar": "شريا"
+        },
+        {
+          "name_fr": "El Aouinet",
+          "name_ar": "العوينات"
+        },
+        {
+          "name_fr": "El Meridj",
+          "name_ar": "المريج"
+        },
+        {
+          "name_fr": "Ferkane",
+          "name_ar": "فرقان"
+        },
+        {
+          "name_fr": "El Kouif",
+          "name_ar": "الكويف"
+        },
+        {
+          "name_fr": "Oum Ali",
+          "name_ar": "أم علي"
+        },
+        {
+          "name_fr": "Tebesbest",
+          "name_ar": "تبسبست"
+        },
+        {
+          "name_fr": "El Ogla",
+          "name_ar": "الأوغلة"
+        },
+        {
+          "name_fr": "Bir Dheheb",
+          "name_ar": "بئر ذهب"
+        },
+        {
+          "name_fr": "Bekkaria",
+          "name_ar": "بكارية"
+        },
+        {
+          "name_fr": "Safsaf",
+          "name_ar": "صفصاف"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "name_ar": "تلمسان",
+      "name_fr": "Tlemcen",
+      "baladiyat": [
+        {
+          "name_fr": "Tiaret",
+          "name_ar": "تيارت"
+        },
+        {
+          "name_fr": "Mechraâ Sfa",
+          "name_ar": "مشرع الصفا"
+        },
+        {
+          "name_fr": "Sougueur",
+          "name_ar": "سوق العوير"
+        },
+        {
+          "name_fr": "Frenda",
+          "name_ar": "فرندة"
+        },
+        {
+          "name_fr": "Bougara",
+          "name_ar": "بوقرة"
+        },
+        {
+          "name_fr": "Beni Tamou",
+          "name_ar": "بني تامو"
+        },
+        {
+          "name_fr": "Ain Kermes",
+          "name_ar": "عين كرماس"
+        },
+        {
+          "name_fr": "Djebel Amour",
+          "name_ar": "جبل عمور"
+        },
+        {
+          "name_fr": "Medroussa",
+          "name_ar": "مدروسة"
+        },
+        {
+          "name_fr": "Rahouia",
+          "name_ar": "راهوية"
+        },
+        {
+          "name_fr": "Dahmouni",
+          "name_ar": "دحموني"
+        },
+        {
+          "name_fr": "Teleghma",
+          "name_ar": "تليغما"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name_ar": "تيارت",
+      "name_fr": "Tiaret",
+      "baladiyat": [
+        {
+          "name_fr": "Tizi Ouzou",
+          "name_ar": "تيزي وزو"
+        },
+        {
+          "name_fr": "Azazga",
+          "name_ar": "عزازقة"
+        },
+        {
+          "name_fr": "Ain El Hammam",
+          "name_ar": "عين الحمام"
+        },
+        {
+          "name_fr": "Azzefoun",
+          "name_ar": "عزفون"
+        },
+        {
+          "name_fr": "Draa El Mizan",
+          "name_ar": "ذراع الميزان"
+        },
+        {
+          "name_fr": "Freha",
+          "name_ar": "فريحة"
+        },
+        {
+          "name_fr": "Irdjen",
+          "name_ar": "إردجان"
+        },
+        {
+          "name_fr": "Larbaâ Nath Irathen",
+          "name_ar": "الأربعاء ناث إيراثن"
+        },
+        {
+          "name_fr": "Makouda",
+          "name_ar": "ماكودة"
+        },
+        {
+          "name_fr": "Mechtras",
+          "name_ar": "مشطراس"
+        },
+        {
+          "name_fr": "Ouaguenoun",
+          "name_ar": "واڭنون"
+        },
+        {
+          "name_fr": "Ouadhias",
+          "name_ar": "وادية"
+        },
+        {
+          "name_fr": "Tizi Ghenif",
+          "name_ar": "تيزي غنيف"
+        },
+        {
+          "name_fr": "Tizi Rached",
+          "name_ar": "تيزي راشد"
+        },
+        {
+          "name_fr": "Tirmitine",
+          "name_ar": "تيرميتينة"
+        },
+        {
+          "name_fr": "Yakouren",
+          "name_ar": "ياقوران"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name_ar": "تيزي وزو",
+      "name_fr": "Tizi Ouzou",
+      "baladiyat": [
+        {
+          "name_fr": "Skikda",
+          "name_ar": "سكيكدة"
+        },
+        {
+          "name_fr": "Azzaba",
+          "name_ar": "عزّابة"
+        },
+        {
+          "name_fr": "Collo",
+          "name_ar": "قالة"
+        },
+        {
+          "name_fr": "El Harrouch",
+          "name_ar": "الحروش"
+        },
+        {
+          "name_fr": "Oum Toub",
+          "name_ar": "أم الطوب"
+        },
+        {
+          "name_fr": "Ouled Attia",
+          "name_ar": "أولاد عطية"
+        },
+        {
+          "name_fr": "Ain Kechra",
+          "name_ar": "عين قشرة"
+        },
+        {
+          "name_fr": "Beni Bechir",
+          "name_ar": "بني بشير"
+        },
+        {
+          "name_fr": "Beni Ouriache",
+          "name_ar": "بني ورياش"
+        },
+        {
+          "name_fr": "Zerdaza",
+          "name_ar": "زردازة"
+        },
+        {
+          "name_fr": "Hammadi",
+          "name_ar": "حمّادي"
+        },
+        {
+          "name_fr": "Ouldja Boulballout",
+          "name_ar": "ولدجا بولبلوط"
+        },
+        {
+          "name_fr": "Akbou",
+          "name_ar": "أقبو"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name_ar": "الجزائر",
+      "name_fr": "Alger",
+      "baladiyat": [
+        {
+          "name_fr": "Alger‑Centre",
+          "name_ar": "الجزائر الوسطى"
+        },
+        {
+          "name_fr": "Aïn Bénian",
+          "name_ar": "عين البنيان"
+        },
+        {
+          "name_fr": "Aïn Taya",
+          "name_ar": "عين طاية"
+        },
+        {
+          "name_fr": "Bab El Oued",
+          "name_ar": "باب الواد"
+        },
+        {
+          "name_fr": "Bab Ezzouar",
+          "name_ar": "باب الزوار"
+        },
+        {
+          "name_fr": "Baba Hassen",
+          "name_ar": "بابا حسن"
+        },
+        {
+          "name_fr": "Bachdjerrah",
+          "name_ar": "بشجرّاه"
+        },
+        {
+          "name_fr": "Baraki",
+          "name_ar": "براقي"
+        },
+        {
+          "name_fr": "Ben Aknoun",
+          "name_ar": "بني عكنون"
+        },
+        {
+          "name_fr": "Belouizdad",
+          "name_ar": "بلوزداد"
+        },
+        {
+          "name_fr": "Bir Mourad Raïs",
+          "name_ar": "بير مراد رايس"
+        },
+        {
+          "name_fr": "Birkhadem",
+          "name_ar": "بئر خادم"
+        },
+        {
+          "name_fr": "Birtouta",
+          "name_ar": "برج الكيفان"
+        },
+        {
+          "name_fr": "Bouzaréah",
+          "name_ar": "بوزريعة"
+        },
+        {
+          "name_fr": "Casbah",
+          "name_ar": "القصبة"
+        },
+        {
+          "name_fr": "Dely Ibrahim",
+          "name_ar": "دالي إبراهيم"
+        },
+        {
+          "name_fr": "Draria",
+          "name_ar": "درارية"
+        },
+        {
+          "name_fr": "Douera",
+          "name_ar": "دوزيرة"
+        },
+        {
+          "name_fr": "El Achour",
+          "name_ar": "الأشور"
+        },
+        {
+          "name_fr": "El Biar",
+          "name_ar": "البيار"
+        },
+        {
+          "name_fr": "El Harrach",
+          "name_ar": "الحرش"
+        },
+        {
+          "name_fr": "El Madania",
+          "name_ar": "المدانية"
+        },
+        {
+          "name_fr": "El Magharia",
+          "name_ar": "المغارية"
+        },
+        {
+          "name_fr": "El Mouradia",
+          "name_ar": "المورادية"
+        },
+        {
+          "name_fr": "Hydra",
+          "name_ar": "حيدرة"
+        },
+        {
+          "name_fr": "Rahmania",
+          "name_ar": "الرحمانية"
+        },
+        {
+          "name_fr": "Reghaïa",
+          "name_ar": "الرقايّة"
+        },
+        {
+          "name_fr": "Rouïba",
+          "name_ar": "رويبة"
+        },
+        {
+          "name_fr": "Saoula",
+          "name_ar": "سعولة"
+        },
+        {
+          "name_fr": "Sidi Moussa",
+          "name_ar": "سيدي موسى"
+        },
+        {
+          "name_fr": "Staouéli",
+          "name_ar": "سطوالي"
+        },
+        {
+          "name_fr": "Souidania",
+          "name_ar": "الصومعان"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "name_ar": "الجلفة",
+      "name_fr": "Djelfa",
+      "baladiyat": [
+        {
+          "name_fr": "Djelfa",
+          "name_ar": "الجلفة"
+        },
+        {
+          "name_fr": "Aïn El Ibel",
+          "name_ar": "عين الإبل"
+        },
+        {
+          "name_fr": "Aïn Oussara",
+          "name_ar": "عين وسارة"
+        },
+        {
+          "name_fr": "Birine",
+          "name_ar": "بِرِين"
+        },
+        {
+          "name_fr": "Charef",
+          "name_ar": "شارف"
+        },
+        {
+          "name_fr": "Dar Chioukh",
+          "name_ar": "دار الشيوخ"
+        },
+        {
+          "name_fr": "El Idrissia",
+          "name_ar": "إل إدريسية"
+        },
+        {
+          "name_fr": "Faidh El Botma",
+          "name_ar": "فيض البوطم"
+        },
+        {
+          "name_fr": "Had-Sahary",
+          "name_ar": "حد الصحاري"
+        },
+        {
+          "name_fr": "Hassi Bahbah",
+          "name_ar": "حاسي بحبح"
+        },
+        {
+          "name_fr": "Messaad",
+          "name_ar": "مسعد"
+        },
+        {
+          "name_fr": "Sidi Ladjel",
+          "name_ar": "سيدي اللجّل"
+        },
+        {
+          "name_fr": "Aïn Chouhada",
+          "name_ar": "عين الشهداء"
+        },
+        {
+          "name_fr": "Aïn Feka",
+          "name_ar": "عين فكة"
+        },
+        {
+          "name_fr": "Aïn Maabed",
+          "name_ar": "عين معبد"
+        },
+        {
+          "name_fr": "Amourah",
+          "name_ar": "عمورة"
+        },
+        {
+          "name_fr": "Benhar",
+          "name_ar": "بن حر"
+        },
+        {
+          "name_fr": "Beni Yagoub",
+          "name_ar": "بني ياقوب"
+        },
+        {
+          "name_fr": "Bouira Lahdab",
+          "name_ar": "بويرة الأخضر"
+        },
+        {
+          "name_fr": "Deldoul",
+          "name_ar": "دلدول"
+        },
+        {
+          "name_fr": "Douis",
+          "name_ar": "دويص"
+        },
+        {
+          "name_fr": "El Guedid",
+          "name_ar": "القديد"
+        },
+        {
+          "name_fr": "Guernini",
+          "name_ar": "قرينني"
+        },
+        {
+          "name_fr": "Guettara",
+          "name_ar": "قطارة"
+        },
+        {
+          "name_fr": "Hassi El Euch",
+          "name_ar": "حاسي العش"
+        },
+        {
+          "name_fr": "Hassi Fedoul",
+          "name_ar": "حاسي فدول"
+        },
+        {
+          "name_fr": "M’Liliha",
+          "name_ar": "ملليحة"
+        },
+        {
+          "name_fr": "Moudjebara",
+          "name_ar": "مجبرة"
+        },
+        {
+          "name_fr": "Sed Rahal",
+          "name_ar": "سد الرحال"
+        },
+        {
+          "name_fr": "Tadmit",
+          "name_ar": "تادمِت"
+        },
+        {
+          "name_fr": "Zaafrane",
+          "name_ar": "زفران"
+        },
+        {
+          "name_fr": "Zaccar",
+          "name_ar": "زاكار"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name_ar": "جيجل",
+      "name_fr": "Jijel",
+      "baladiyat": [
+        {
+          "name_fr": "Jijel",
+          "name_ar": "جيجل"
+        },
+        {
+          "name_fr": "El Ancer",
+          "name_ar": "الانصر"
+        },
+        {
+          "name_fr": "El Aouana",
+          "name_ar": "العوانة"
+        },
+        {
+          "name_fr": "El Milia",
+          "name_ar": "إلميلية"
+        },
+        {
+          "name_fr": "Chekfa",
+          "name_ar": "الشكفة"
+        },
+        {
+          "name_fr": "Chahna",
+          "name_ar": "شحنة"
+        },
+        {
+          "name_fr": "Emir Abdelkader",
+          "name_ar": "الأمير عبد القادر"
+        },
+        {
+          "name_fr": "Ghebala",
+          "name_ar": "غبالة"
+        },
+        {
+          "name_fr": "Kheïri Oued Adjoul",
+          "name_ar": "خيّري وادي أجدول"
+        },
+        {
+          "name_fr": "Djemaa Beni Habibi",
+          "name_ar": "جمعة بني حبيبي"
+        },
+        {
+          "name_fr": "Bouraoui Belhadef",
+          "name_ar": "بوراوي بلحداف"
+        },
+        {
+          "name_fr": "Djimla",
+          "name_ar": "جميلة"
+        },
+        {
+          "name_fr": "Selma Benziada",
+          "name_ar": "سلمة بن زيادة"
+        },
+        {
+          "name_fr": "Boucif Ouled Askeur",
+          "name_ar": "بوصيف أوﻻد أسكّور"
+        },
+        {
+          "name_fr": "El Kennar Nouchfi",
+          "name_ar": "الكنار نوشفي"
+        },
+        {
+          "name_fr": "Ouled Yahia Khedrouche",
+          "name_ar": "أولاد يحيى خضروش"
+        },
+        {
+          "name_fr": "Boudriaa Ben Yadjis",
+          "name_ar": "بضوريا بن يخيس"
+        },
+        {
+          "name_fr": "Ouadjana",
+          "name_ar": "واجدانة"
+        },
+        {
+          "name_fr": "Ouled Rabah",
+          "name_ar": "أولاد رباح"
+        },
+        {
+          "name_fr": "Ziama Mansouriah",
+          "name_ar": "زيامة منصورية"
+        },
+        {
+          "name_fr": "Sidi Abdelaziz",
+          "name_ar": "سيدي عبد العزيز"
+        },
+        {
+          "name_fr": "Sidi Maarouf",
+          "name_ar": "سيدي معروف"
+        },
+        {
+          "name_fr": "Settara",
+          "name_ar": "سطارة"
+        },
+        {
+          "name_fr": "Taher",
+          "name_ar": "الطاهر"
+        },
+        {
+          "name_fr": "Texenna",
+          "name_ar": "تكسنة"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "name_ar": "سطيف",
+      "name_fr": "Sétif",
+      "baladiyat": [
+        {
+          "name_fr": "Sétif",
+          "name_ar": "سطيف"
+        },
+        {
+          "name_fr": "Ain El Kebira",
+          "name_ar": "عين الكبيرة"
+        },
+        {
+          "name_fr": "Ain Sebt",
+          "name_ar": "عين السبت"
+        },
+        {
+          "name_fr": "Ouled Addouane",
+          "name_ar": "أولاد عدوان"
+        },
+        {
+          "name_fr": "Boutaleb",
+          "name_ar": "بوطالب"
+        },
+        {
+          "name_fr": "Ain Lahdjar",
+          "name_ar": "عين الحجر"
+        },
+        {
+          "name_fr": "Bougaa",
+          "name_ar": "بوقاعة"
+        },
+        {
+          "name_fr": "Setif",
+          "name_ar": "سطيف"
+        },
+        {
+          "name_fr": "Ain Abessa",
+          "name_ar": "عين عباسة"
+        },
+        {
+          "name_fr": "Dehamcha",
+          "name_ar": "دهامشة"
+        },
+        {
+          "name_fr": "Babor",
+          "name_ar": "بابور"
+        },
+        {
+          "name_fr": "Guidjel",
+          "name_ar": "قجال"
+        },
+        {
+          "name_fr": "Ain Legradj",
+          "name_ar": "عين لقراج"
+        },
+        {
+          "name_fr": "Ain Roua",
+          "name_ar": "عين الروى"
+        },
+        {
+          "name_fr": "Darguina",
+          "name_ar": "دارقينة"
+        },
+        {
+          "name_fr": "Hassi El Euch",
+          "name_ar": "حاسي العش"
+        },
+        {
+          "name_fr": "Dabissa",
+          "name_ar": "دبيسة"
+        },
+        {
+          "name_fr": "Beni Aziz",
+          "name_ar": "بني عزيز"
+        },
+        {
+          "name_fr": "Ouled Tebben",
+          "name_ar": "أولاد تبان"
+        },
+        {
+          "name_fr": "Rosfa",
+          "name_ar": "الرصفة"
+        },
+        {
+          "name_fr": "Ouled Sabor",
+          "name_ar": "أولاد صابر"
+        },
+        {
+          "name_fr": "Guenzet",
+          "name_ar": "قنزات"
+        },
+        {
+          "name_fr": "Mezloug",
+          "name_ar": "مزلوق"
+        },
+        {
+          "name_fr": "Bir El Arch",
+          "name_ar": "بير العرش"
+        },
+        {
+          "name_fr": "Beni Chebana",
+          "name_ar": "بني شبانة"
+        },
+        {
+          "name_fr": "Ouled Si Ahmed",
+          "name_ar": "أولاد سي أحمد"
+        },
+        {
+          "name_fr": "Hamma",
+          "name_ar": "الحامة"
+        },
+        {
+          "name_fr": "Maaouia",
+          "name_ar": "معاوية"
+        },
+        {
+          "name_fr": "Ain Oulmene",
+          "name_ar": "عين ولمان"
+        },
+        {
+          "name_fr": "Beni Ouartilane",
+          "name_ar": "بني ورتيلان"
+        },
+        {
+          "name_fr": "Belaa",
+          "name_ar": "بلعة"
+        },
+        {
+          "name_fr": "Bin El Ouiden",
+          "name_ar": "بين الويدان"
+        },
+        {
+          "name_fr": "Beidha Bordj",
+          "name_ar": "بيضاء برج"
+        },
+        {
+          "name_fr": "El Ouricia",
+          "name_ar": "العريشة"
+        },
+        {
+          "name_fr": "Taya",
+          "name_ar": "طاية"
+        },
+        {
+          "name_fr": "Saouira",
+          "name_ar": "الصاورة"
+        },
+        {
+          "name_fr": "Tala Ifacene",
+          "name_ar": "تالة إيفاسن"
+        },
+        {
+          "name_fr": "Djemila",
+          "name_ar": "جميلة"
+        },
+        {
+          "name_fr": "Texenna",
+          "name_ar": "تاكسنة"
+        },
+        {
+          "name_fr": "El Eulma",
+          "name_ar": "العلمة"
+        },
+        {
+          "name_fr": "Hammam Sokhna",
+          "name_ar": "حمام السخنة"
+        },
+        {
+          "name_fr": "Bir Haddada",
+          "name_ar": "بير حدادة"
+        },
+        {
+          "name_fr": "Serdj El Ghoul",
+          "name_ar": "سراج الغول"
+        },
+        {
+          "name_fr": "Harbil",
+          "name_ar": "حربيل"
+        },
+        {
+          "name_fr": "El Ouldja",
+          "name_ar": "الولجة"
+        },
+        {
+          "name_fr": "Tizi N'Bechar",
+          "name_ar": "تيزي نبشار"
+        },
+        {
+          "name_fr": "Salah Bey",
+          "name_ar": "صالح باي"
+        },
+        {
+          "name_fr": "Ain Azel",
+          "name_ar": "عين عزل"
+        },
+        {
+          "name_fr": "Guellal",
+          "name_ar": "قلال"
+        },
+        {
+          "name_fr": "Amoucha",
+          "name_ar": "عموشة"
+        },
+        {
+          "name_fr": "Ain Kechra",
+          "name_ar": "عين الكشرة"
+        },
+        {
+          "name_fr": "Beni Fouda",
+          "name_ar": "بني فودة"
+        },
+        {
+          "name_fr": "Tachouda",
+          "name_ar": "تاشودة"
+        },
+        {
+          "name_fr": "Beni Mouhli",
+          "name_ar": "بني موحلي"
+        },
+        {
+          "name_fr": "Ouled Dahmane",
+          "name_ar": "أولاد دحمان"
+        },
+        {
+          "name_fr": "Ksar El Abtal",
+          "name_ar": "قصر الأبطال"
+        },
+        {
+          "name_fr": "Babor",
+          "name_ar": "بابور"
+        },
+        {
+          "name_fr": "Hammam Guergour",
+          "name_ar": "حمام قرقور"
+        },
+        {
+          "name_fr": "Ait Naoual Mezada",
+          "name_ar": "آيت نوال مزادة"
+        },
+        {
+          "name_fr": "Guelta Zerka",
+          "name_ar": "قلتة زرقة"
+        },
+        {
+          "name_fr": "Ait Tizi",
+          "name_ar": "آيت تيزي"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "name_ar": "سعيدة",
+      "name_fr": "Saïda",
+      "baladiyat": [
+        {
+          "name_fr": "Saïda",
+          "name_ar": "سعيدة"
+        },
+        {
+          "name_fr": "Aïn El Hadjar",
+          "name_ar": "عين الحجر"
+        },
+        {
+          "name_fr": "Aïn Sekhouna",
+          "name_ar": "عين السخونة"
+        },
+        {
+          "name_fr": "Aïn Soltane",
+          "name_ar": "عين السلطان"
+        },
+        {
+          "name_fr": "Doui Thabet",
+          "name_ar": "دوي ثابت"
+        },
+        {
+          "name_fr": "El Hassasna",
+          "name_ar": "الحساسنة"
+        },
+        {
+          "name_fr": "Hounet",
+          "name_ar": "حونات"
+        },
+        {
+          "name_fr": "Maamora",
+          "name_ar": "المعمورة"
+        },
+        {
+          "name_fr": "Moulay Larbi",
+          "name_ar": "مولاي العربي"
+        },
+        {
+          "name_fr": "Oued Taga",
+          "name_ar": "وادي الطاقة"
+        },
+        {
+          "name_fr": "Ouled Brahim",
+          "name_ar": "أولاد إبراهيم"
+        },
+        {
+          "name_fr": "Saïda (commune)",
+          "name_ar": "سعيدة"
+        },
+        {
+          "name_fr": "Sidi Ahmed",
+          "name_ar": "سيدي أحمد"
+        },
+        {
+          "name_fr": "Tircine",
+          "name_ar": "تيرسين"
+        },
+        {
+          "name_fr": "Bekkaria",
+          "name_ar": "بكارية"
+        },
+        {
+          "name_fr": "Bir Soltane",
+          "name_ar": "بير السلطان"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "name_ar": "سكيكدة",
+      "name_fr": "Skikda",
+      "baladiyat": [
+        {
+          "name_fr": "Skikda",
+          "name_ar": "سكيكدة"
+        },
+        {
+          "name_fr": "Aïn Bouziane",
+          "name_ar": "عين بوزيان"
+        },
+        {
+          "name_fr": "Aïn Charchar",
+          "name_ar": "عين شرشار"
+        },
+        {
+          "name_fr": "Aïn Kechra",
+          "name_ar": "عين قشرة"
+        },
+        {
+          "name_fr": "Aïn Zouit",
+          "name_ar": "عين زويت"
+        },
+        {
+          "name_fr": "Azzaba",
+          "name_ar": "عزّابة"
+        },
+        {
+          "name_fr": "Bekkouche Lakhdar",
+          "name_ar": "بكوش الأخضر"
+        },
+        {
+          "name_fr": "Bin El Ouiden",
+          "name_ar": "بن الويدان"
+        },
+        {
+          "name_fr": "Ben Azzouz",
+          "name_ar": "بني عزوز"
+        },
+        {
+          "name_fr": "Beni Bechir",
+          "name_ar": "بني بشير"
+        },
+        {
+          "name_fr": "Beni Oulbane",
+          "name_ar": "بني ولّبان"
+        },
+        {
+          "name_fr": "Beni Zid",
+          "name_ar": "بني زيد"
+        },
+        {
+          "name_fr": "Bouchtata",
+          "name_ar": "بوشتاتا"
+        },
+        {
+          "name_fr": "Cheraia",
+          "name_ar": "شرايع"
+        },
+        {
+          "name_fr": "Collo",
+          "name_ar": "قالة"
+        },
+        {
+          "name_fr": "Djendel Saadi Mohamed",
+          "name_ar": "جندل سعدي محمد"
+        },
+        {
+          "name_fr": "El Ghedir",
+          "name_ar": "الغدير"
+        },
+        {
+          "name_fr": "El Harrouch",
+          "name_ar": "الحروش"
+        },
+        {
+          "name_fr": "El Marsa",
+          "name_ar": "المرسى"
+        },
+        {
+          "name_fr": "Emdjez Edchich",
+          "name_ar": "إمڭج الإديشيش"
+        },
+        {
+          "name_fr": "Es Sebt",
+          "name_ar": "الصبع"
+        },
+        {
+          "name_fr": "Filfila",
+          "name_ar": "فلفلة"
+        },
+        {
+          "name_fr": "Hamadi Krouma",
+          "name_ar": "حمّادي كرومة"
+        },
+        {
+          "name_fr": "Kanoua",
+          "name_ar": "قنوة"
+        },
+        {
+          "name_fr": "Kheneg Mayoum",
+          "name_ar": "خنق مايوّم"
+        },
+        {
+          "name_fr": "Oued Zehour",
+          "name_ar": "وادي الزهور"
+        },
+        {
+          "name_fr": "Ouldja Boulballout",
+          "name_ar": "ولدجا بولبلوط"
+        },
+        {
+          "name_fr": "Ouled Attia",
+          "name_ar": "أولاد عطية"
+        },
+        {
+          "name_fr": "Ouled Hbaba",
+          "name_ar": "أولاد حبابة"
+        },
+        {
+          "name_fr": "Oum Toub",
+          "name_ar": "أم الطوب"
+        },
+        {
+          "name_fr": "Ramdane Djamel",
+          "name_ar": "رمدان جمال"
+        },
+        {
+          "name_fr": "Salah Bouchaour",
+          "name_ar": "صالح بوشعور"
+        },
+        {
+          "name_fr": "Sidi Mezghiche",
+          "name_ar": "سيدي مزغيش"
+        },
+        {
+          "name_fr": "Tamalous",
+          "name_ar": "تمالوس"
+        },
+        {
+          "name_fr": "Zerdaza",
+          "name_ar": "زردازة"
+        },
+        {
+          "name_fr": "Zitouna",
+          "name_ar": "زيتونة"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "name_ar": "سيدي بلعباس",
+      "name_fr": "Sidi Bel Abbès",
+      "baladiyat": [
+        {
+          "name_fr": "Sidi Bel Abbès",
+          "name_ar": "سيدي بلعباس"
+        },
+        {
+          "name_fr": "Benachiba Chelia",
+          "name_ar": "بناشيبة الشيالية"
+        },
+        {
+          "name_fr": "Sfisef",
+          "name_ar": "سفيزف"
+        },
+        {
+          "name_fr": "Tilmouni",
+          "name_ar": "تيلموني"
+        },
+        {
+          "name_fr": "Ben Badis",
+          "name_ar": "بن باديس"
+        },
+        {
+          "name_fr": "Marhoum",
+          "name_ar": "مرحوم"
+        },
+        {
+          "name_fr": "Moulay Slissen",
+          "name_ar": "مولاي سليسن"
+        },
+        {
+          "name_fr": "Moulay Slissen",
+          "name_ar": "مولاي سليسن"
+        },
+        {
+          "name_fr": "Merine",
+          "name_ar": "ميرين"
+        },
+        {
+          "name_fr": "El Abbassi",
+          "name_ar": "العباسي"
+        },
+        {
+          "name_fr": "Mostaganem",
+          "name_ar": "مستغانم"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "name_ar": "عنابة",
+      "name_fr": "Annaba",
+      "baladiyat": [
+        {
+          "name_fr": "Annaba",
+          "name_ar": "عنابة"
+        },
+        {
+          "name_fr": "El Hadjar",
+          "name_ar": "الحجار"
+        },
+        {
+          "name_fr": "Seraïdi",
+          "name_ar": "صرايدي"
+        },
+        {
+          "name_fr": "Berrahal",
+          "name_ar": "برحال"
+        },
+        {
+          "name_fr": "Chetaïbi",
+          "name_ar": "ـشطايبي"
+        },
+        {
+          "name_fr": "Oued El Aneb",
+          "name_ar": "وادي العنب"
+        },
+        {
+          "name_fr": "El Bouni",
+          "name_ar": "البوني"
+        },
+        {
+          "name_fr": "Aïn Berda",
+          "name_ar": "عين بردى"
+        },
+        {
+          "name_fr": "Bouchtata",
+          "name_ar": "بوشتاتا"
+        },
+        {
+          "name_fr": "El Hadjar",
+          "name_ar": "الحجار"
+        }
+      ]
+    },
+    {
+      "code": "24",
+      "name_ar": "قالمة",
+      "name_fr": "Guelma",
+      "baladiyat": [
+        {
+          "name_fr": "Guelma",
+          "name_ar": "قالمة"
+        },
+        {
+          "name_fr": "Guelaât Bou Sbaâ",
+          "name_ar": "قلعة بو صبع"
+        },
+        {
+          "name_fr": "Hammam Debagh",
+          "name_ar": "حمام دباغ"
+        },
+        {
+          "name_fr": "Medjez Amar",
+          "name_ar": "مجاز عمار"
+        },
+        {
+          "name_fr": "Nechmaya",
+          "name_ar": "نشماية"
+        },
+        {
+          "name_fr": "Bouati Mahmoud",
+          "name_ar": "بوعاطي محمود"
+        },
+        {
+          "name_fr": "Khezarra",
+          "name_ar": "خزارة"
+        },
+        {
+          "name_fr": "Roknia",
+          "name_ar": "ركنية"
+        },
+        {
+          "name_fr": "Tamlouka",
+          "name_ar": "تملوكة"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "name_ar": "قسنطينة",
+      "name_fr": "Constantine",
+      "baladiyat": [
+        {
+          "name_fr": "Constantine",
+          "name_ar": "قسنطينة"
+        },
+        {
+          "name_fr": "El Khroub",
+          "name_ar": "الخروب"
+        },
+        {
+          "name_fr": "Didouche Mourad",
+          "name_ar": "ديدوش مراد"
+        },
+        {
+          "name_fr": "Ben Badis",
+          "name_ar": "بن باديس"
+        },
+        {
+          "name_fr": "Ibn Ziad",
+          "name_ar": "ابن زياد"
+        },
+        {
+          "name_fr": "Zighout Youcef",
+          "name_ar": "زيغود يوسف"
+        },
+        {
+          "name_fr": "Hamma Bouziane",
+          "name_ar": "حمّة بوزيان"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "name_ar": "المدية",
+      "name_fr": "Médéa",
+      "baladiyat": [
+        {
+          "name_fr": "Médéa",
+          "name_ar": "المدية"
+        },
+        {
+          "name_fr": "Chahbounia",
+          "name_ar": "شحبوينة"
+        },
+        {
+          "name_fr": "Tizi Mahdi",
+          "name_ar": "تيزي مهدي"
+        },
+        {
+          "name_fr": "Seghouane",
+          "name_ar": "سغوان"
+        },
+        {
+          "name_fr": "Berrouaghia",
+          "name_ar": "برّواغية"
+        },
+        {
+          "name_fr": "Aïn Boucif",
+          "name_ar": "عين بوصيف"
+        },
+        {
+          "name_fr": "Thenia",
+          "name_ar": "ثنية"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "name_ar": "مستغانم",
+      "name_fr": "Mostaganem",
+      "baladiyat": [
+        {
+          "name_fr": "Mostaganem",
+          "name_ar": "مستغانم"
+        },
+        {
+          "name_fr": "Aïn Tedles",
+          "name_ar": "عين تسمربة"
+        },
+        {
+          "name_fr": "Mesra",
+          "name_ar": "مصرى"
+        },
+        {
+          "name_fr": "Achrout",
+          "name_ar": "شراوت"
+        },
+        {
+          "name_fr": "Sidi Ali",
+          "name_ar": "سيدي علي"
+        },
+        {
+          "name_fr": "Bousfer",
+          "name_ar": "بوسفر"
+        },
+        {
+          "name_fr": "Hassi Mameche",
+          "name_ar": "حاسي مامش"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "name_ar": "المسيلة",
+      "name_fr": "M'Sila",
+      "baladiyat": [
+        {
+          "name_fr": "Aïn El Hadjel",
+          "name_ar": "عين الحجل"
+        },
+        {
+          "name_fr": "Aïn El Melh",
+          "name_ar": "عين الملح"
+        },
+        {
+          "name_fr": "Aïn Errich",
+          "name_ar": "عين الريش"
+        },
+        {
+          "name_fr": "Aïn Fares",
+          "name_ar": "عين فارس"
+        },
+        {
+          "name_fr": "Aïn Khadra",
+          "name_ar": "عين خضرة"
+        },
+        {
+          "name_fr": "Belaiba",
+          "name_ar": "بليبة"
+        },
+        {
+          "name_fr": "Ben Srour",
+          "name_ar": "بن سرور"
+        },
+        {
+          "name_fr": "Beni Ilmane",
+          "name_ar": "بني إبراهيم"
+        },
+        {
+          "name_fr": "Benzouh",
+          "name_ar": "بن زوه"
+        },
+        {
+          "name_fr": "Berhoum",
+          "name_ar": "برهوم"
+        },
+        {
+          "name_fr": "Bir Foda",
+          "name_ar": "بئر الفودة"
+        },
+        {
+          "name_fr": "Bou Saâda",
+          "name_ar": "بوسعادة"
+        },
+        {
+          "name_fr": "Bouti Sayah",
+          "name_ar": "بوطي سياح"
+        },
+        {
+          "name_fr": "Chellal",
+          "name_ar": "شلال"
+        },
+        {
+          "name_fr": "Dehahna",
+          "name_ar": "الدهانة"
+        },
+        {
+          "name_fr": "Djebel Messaad",
+          "name_ar": "جبل مسعد"
+        },
+        {
+          "name_fr": "El Hamel",
+          "name_ar": "الحامد"
+        },
+        {
+          "name_fr": "El Houamed",
+          "name_ar": "الحوامد"
+        },
+        {
+          "name_fr": "Hammam Dhalaa",
+          "name_ar": "حمام الدلالة"
+        },
+        {
+          "name_fr": "Khettouti Sed El Djir",
+          "name_ar": "خطيطوط س د الجير"
+        },
+        {
+          "name_fr": "Khoubana",
+          "name_ar": "خوبانة"
+        },
+        {
+          "name_fr": "Maadid",
+          "name_ar": "معديد"
+        },
+        {
+          "name_fr": "Maarif",
+          "name_ar": "معاريف"
+        },
+        {
+          "name_fr": "Medjedel",
+          "name_ar": "المجدل"
+        },
+        {
+          "name_fr": "M'Sila",
+          "name_ar": "المسيلة"
+        },
+        {
+          "name_fr": "M'Tarfa",
+          "name_ar": "متفرق"
+        },
+        {
+          "name_fr": "Ouanougha",
+          "name_ar": "وانوغة"
+        },
+        {
+          "name_fr": "Ouled Addi Guebala",
+          "name_ar": "أولاد عدي قبالة"
+        },
+        {
+          "name_fr": "Ouled Atia",
+          "name_ar": "أولاد عطية"
+        },
+        {
+          "name_fr": "Mohammed Boudiaf",
+          "name_ar": "محمد بوضياف"
+        },
+        {
+          "name_fr": "Ouled Derradj",
+          "name_ar": "أولاد دراج"
+        },
+        {
+          "name_fr": "Ouled Madhi",
+          "name_ar": "أولاد ماضي"
+        },
+        {
+          "name_fr": "Ouled Mansour",
+          "name_ar": "أولاد منصور"
+        },
+        {
+          "name_fr": "Ouled Sidi Brahim",
+          "name_ar": "أولاد سيدي إبراهيم"
+        },
+        {
+          "name_fr": "Ouled Slimane",
+          "name_ar": "أولاد سليمان"
+        },
+        {
+          "name_fr": "Oultem",
+          "name_ar": "أولتم"
+        },
+        {
+          "name_fr": "Sidi Aïssa",
+          "name_ar": "سيدي عيسى"
+        },
+        {
+          "name_fr": "Sidi Ameur",
+          "name_ar": "سيدي عامر"
+        },
+        {
+          "name_fr": "Sidi Hadjeres",
+          "name_ar": "سيدي حجرس"
+        },
+        {
+          "name_fr": "Sidi M'Hamed",
+          "name_ar": "سيدي محمد"
+        },
+        {
+          "name_fr": "Slim",
+          "name_ar": "سليم"
+        },
+        {
+          "name_fr": "Souamaa",
+          "name_ar": "سوامة"
+        },
+        {
+          "name_fr": "Tamsa",
+          "name_ar": "تماسة"
+        },
+        {
+          "name_fr": "Tarmount",
+          "name_ar": "ترمونت"
+        },
+        {
+          "name_fr": "Zarzour",
+          "name_ar": "زرزور"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "name_ar": "معسكر",
+      "name_fr": "Mascara",
+      "baladiyat": [
+        {
+          "name_fr": "Aïn Fares",
+          "name_ar": "عين فارس"
+        },
+        {
+          "name_fr": "Aïn Fekan",
+          "name_ar": "عين فكان"
+        },
+        {
+          "name_fr": "Aïn Ferah",
+          "name_ar": "عين فراه"
+        },
+        {
+          "name_fr": "Aïn Fras",
+          "name_ar": "عين فراس"
+        },
+        {
+          "name_fr": "Alaïmia",
+          "name_ar": "علامية"
+        },
+        {
+          "name_fr": "Aouf",
+          "name_ar": "عوّف"
+        },
+        {
+          "name_fr": "Beniane",
+          "name_ar": "بني ان"
+        },
+        {
+          "name_fr": "Bou Hanifia",
+          "name_ar": "بو حنيفية"
+        },
+        {
+          "name_fr": "Bou Henni",
+          "name_ar": "بو حني"
+        },
+        {
+          "name_fr": "Chorfa",
+          "name_ar": "شرفة"
+        },
+        {
+          "name_fr": "El Bordj",
+          "name_ar": "البرج"
+        },
+        {
+          "name_fr": "El Gaada",
+          "name_ar": "الڭعدة"
+        },
+        {
+          "name_fr": "El Ghomri",
+          "name_ar": "الغمرّي"
+        },
+        {
+          "name_fr": "El Guettana",
+          "name_ar": "الڭيتانة"
+        },
+        {
+          "name_fr": "El Keurt",
+          "name_ar": "القيرط"
+        },
+        {
+          "name_fr": "El Menaouer",
+          "name_ar": "المنور"
+        },
+        {
+          "name_fr": "Ferraguig",
+          "name_ar": "فراڤيق"
+        },
+        {
+          "name_fr": "Froha",
+          "name_ar": "فرهة"
+        },
+        {
+          "name_fr": "Gharrous",
+          "name_ar": "غارّوس"
+        },
+        {
+          "name_fr": "Guerdjoum",
+          "name_ar": "قيرجوم"
+        },
+        {
+          "name_fr": "Ghriss",
+          "name_ar": "غيريس"
+        },
+        {
+          "name_fr": "Hachem",
+          "name_ar": "هشّام"
+        },
+        {
+          "name_fr": "Hacine",
+          "name_ar": "حسين"
+        },
+        {
+          "name_fr": "Khalouia",
+          "name_ar": "خالوية"
+        },
+        {
+          "name_fr": "Makdha",
+          "name_ar": "مقدة"
+        },
+        {
+          "name_fr": "Mamounia",
+          "name_ar": "العامرية"
+        },
+        {
+          "name_fr": "Maoussa",
+          "name_ar": "ماوسة"
+        },
+        {
+          "name_fr": "Mascara",
+          "name_ar": "معسكر"
+        },
+        {
+          "name_fr": "Matemore",
+          "name_ar": "ماتمور"
+        },
+        {
+          "name_fr": "Mocta Douz",
+          "name_ar": "مطقة-دّوز"
+        },
+        {
+          "name_fr": "Mohammadia",
+          "name_ar": "محمدية"
+        },
+        {
+          "name_fr": "Nesmoth",
+          "name_ar": "نسموط"
+        },
+        {
+          "name_fr": "Oggaz",
+          "name_ar": "أڭّاز"
+        },
+        {
+          "name_fr": "Oued El Abtal",
+          "name_ar": "وادي الأبطال"
+        },
+        {
+          "name_fr": "Oued Taria",
+          "name_ar": "وادي الطاريّة"
+        },
+        {
+          "name_fr": "Ras El Aïn",
+          "name_ar": "رأس العين"
+        },
+        {
+          "name_fr": "Sedjerara",
+          "name_ar": "سجرارة"
+        },
+        {
+          "name_fr": "Sehailia",
+          "name_ar": "سهيلية"
+        },
+        {
+          "name_fr": "Sidi Abdeldjebar",
+          "name_ar": "سيدي عبد الجبار"
+        },
+        {
+          "name_fr": "Sidi Abdelmoumen",
+          "name_ar": "سيدي عبد المومن"
+        },
+        {
+          "name_fr": "Sidi Kada",
+          "name_ar": "سيدي قادة"
+        },
+        {
+          "name_fr": "Sidi Boussaid",
+          "name_ar": "سيدي بوسعيد"
+        },
+        {
+          "name_fr": "Sig",
+          "name_ar": "سيق"
+        },
+        {
+          "name_fr": "Tighennif",
+          "name_ar": "تيغنيف"
+        },
+        {
+          "name_fr": "Tizi",
+          "name_ar": "تيزي"
+        },
+        {
+          "name_fr": "Zahana",
+          "name_ar": "زهانة"
+        },
+        {
+          "name_fr": "Zelmata",
+          "name_ar": "زلماطة"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "name_ar": "ورقلة",
+      "name_fr": "Ouargla",
+      "baladiyat": [
+        {
+          "name_fr": "Aïn Beida",
+          "name_ar": "عين البيضاء"
+        },
+        {
+          "name_fr": "El Borma",
+          "name_ar": "البرمة"
+        },
+        {
+          "name_fr": "Hassi Ben Abdellah",
+          "name_ar": "حاسي بن عبد الله"
+        },
+        {
+          "name_fr": "Hassi Messaoud",
+          "name_ar": "حاسي مسعود"
+        },
+        {
+          "name_fr": "N'Goussa",
+          "name_ar": "نڨوسة"
+        },
+        {
+          "name_fr": "Ouargla",
+          "name_ar": "وَرڨلة"
+        },
+        {
+          "name_fr": "Rouissat",
+          "name_ar": "الرويسات"
+        },
+        {
+          "name_fr": "Sidi Khouiled",
+          "name_ar": "سيدي خويلد"
+        },
+        {
+          "name_fr": "El Hadjira",
+          "name_ar": "الحجيرة"
+        },
+        {
+          "name_fr": "El Allia",
+          "name_ar": "العالية"
+        }
+      ]
+    },
+    {
+      "code": "31",
+      "name_ar": "وهران",
+      "name_fr": "Oran",
+      "baladiyat": [
+        {
+          "name_fr": "Oran",
+          "name_ar": "وهران"
+        },
+        {
+          "name_fr": "Gdyel",
+          "name_ar": "قديل"
+        },
+        {
+          "name_fr": "Bir El Djir",
+          "name_ar": "بئر الجير"
+        },
+        {
+          "name_fr": "Hassi Bounif",
+          "name_ar": "حاسي بونيف"
+        },
+        {
+          "name_fr": "Es Sénia",
+          "name_ar": "السانية"
+        },
+        {
+          "name_fr": "Arzew",
+          "name_ar": "أرزيو"
+        },
+        {
+          "name_fr": "Bethioua",
+          "name_ar": "باثيوة"
+        },
+        {
+          "name_fr": "Mers El Kébir",
+          "name_ar": "مرسى الكبير"
+        },
+        {
+          "name_fr": "Aïn El Turk",
+          "name_ar": "عين الترك"
+        },
+        {
+          "name_fr": "El Ançor",
+          "name_ar": "الأنكور"
+        },
+        {
+          "name_fr": "Oued Tlelat",
+          "name_ar": "وادي تليلات"
+        },
+        {
+          "name_fr": "Tafraoui",
+          "name_ar": "تافراوي"
+        },
+        {
+          "name_fr": "Sidi Chami",
+          "name_ar": "سيدي الشامي"
+        },
+        {
+          "name_fr": "Boufatis",
+          "name_ar": "بوفتيس"
+        },
+        {
+          "name_fr": "Misserghin",
+          "name_ar": "ميسرغين"
+        },
+        {
+          "name_fr": "Boutlelis",
+          "name_ar": "بطلّيس"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "name_ar": "البيض",
+      "name_fr": "El Bayadh",
+      "baladiyat": [
+        {
+          "name_fr": "El Bayadh",
+          "name_ar": "البيض"
+        },
+        {
+          "name_fr": "Rogassa",
+          "name_ar": "رغازة"
+        },
+        {
+          "name_fr": "Stitten",
+          "name_ar": "سطّين"
+        },
+        {
+          "name_fr": "Brezina",
+          "name_ar": "البرزينة"
+        },
+        {
+          "name_fr": "Ghassoul",
+          "name_ar": "غاسول"
+        },
+        {
+          "name_fr": "Boualem",
+          "name_ar": "بوالم"
+        },
+        {
+          "name_fr": "El Abiodh Sidi Cheikh",
+          "name_ar": "الأبيض سيدي الشيخ"
+        },
+        {
+          "name_fr": "Aïn El Orak",
+          "name_ar": "عين الوراك"
+        },
+        {
+          "name_fr": "Arbaouat",
+          "name_ar": "أربعوات"
+        },
+        {
+          "name_fr": "Bougtoub",
+          "name_ar": "بوقطب"
+        },
+        {
+          "name_fr": "El Kheiter",
+          "name_ar": "الخيطير"
+        },
+        {
+          "name_fr": "Kef El Ahmar",
+          "name_ar": "كاف الأحمر"
+        },
+        {
+          "name_fr": "Boussemghoun",
+          "name_ar": "بوسمغون"
+        },
+        {
+          "name_fr": "Chellala",
+          "name_ar": "شلالة"
+        },
+        {
+          "name_fr": "Kraakda",
+          "name_ar": "كراكدة"
+        },
+        {
+          "name_fr": "El Bnoud",
+          "name_ar": "البنود"
+        },
+        {
+          "name_fr": "Cheguig",
+          "name_ar": "شقيق"
+        },
+        {
+          "name_fr": "Sidi Ameur",
+          "name_ar": "سيدي عامر"
+        },
+        {
+          "name_fr": "El Mehara",
+          "name_ar": "المهارة"
+        },
+        {
+          "name_fr": "Tousmouline",
+          "name_ar": "توسمولين"
+        },
+        {
+          "name_fr": "Sidi Slimane",
+          "name_ar": "سيدي سليمان"
+        },
+        {
+          "name_fr": "Sidi Tifour",
+          "name_ar": "سيدي تيفور"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "name_ar": "إليزي",
+      "name_fr": "Illizi",
+      "baladiyat": [
+        {
+          "name_fr": "Illizi",
+          "name_ar": "إليزي"
+        },
+        {
+          "name_fr": "Bordj Omar Driss",
+          "name_ar": "برج عمر إدريس"
+        },
+        {
+          "name_fr": "Debdeb",
+          "name_ar": "دبداب"
+        },
+        {
+          "name_fr": "In Amenas",
+          "name_ar": "أمنان"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "name_ar": "برج بوعريريج",
+      "name_fr": "Bordj Bou Arreridj",
+      "baladiyat": [
+        {
+          "name_fr": "Aïn Taghrout",
+          "name_ar": "عين طغرت"
+        },
+        {
+          "name_fr": "Aïn Tesra",
+          "name_ar": "عين ثسرات"
+        },
+        {
+          "name_fr": "Achabou",
+          "name_ar": "عشابو"
+        },
+        {
+          "name_fr": "Belimour",
+          "name_ar": "بليمور"
+        },
+        {
+          "name_fr": "Ben Daoud",
+          "name_ar": "بن داود"
+        },
+        {
+          "name_fr": "Bir Kasdali",
+          "name_ar": "بئر قصدالي"
+        },
+        {
+          "name_fr": "Bordj Bou Arréridj",
+          "name_ar": "برج بوعريريج"
+        },
+        {
+          "name_fr": "Bordj Ghedir",
+          "name_ar": "برج الغدير"
+        },
+        {
+          "name_fr": "Bordj Zemoura",
+          "name_ar": "برج زمّورة"
+        },
+        {
+          "name_fr": "Colla",
+          "name_ar": "قلا"
+        },
+        {
+          "name_fr": "Djaâfra",
+          "name_ar": "جعفرة"
+        },
+        {
+          "name_fr": "El Ach",
+          "name_ar": "العش"
+        },
+        {
+          "name_fr": "El Achir",
+          "name_ar": "العشير"
+        },
+        {
+          "name_fr": "El Anseur",
+          "name_ar": "العنصر"
+        },
+        {
+          "name_fr": "El Hamadia",
+          "name_ar": "الحماادية"
+        },
+        {
+          "name_fr": "El Main",
+          "name_ar": "الماين"
+        },
+        {
+          "name_fr": "El M'hir",
+          "name_ar": "المهير"
+        },
+        {
+          "name_fr": "Ghilassa",
+          "name_ar": "غيلاسة"
+        },
+        {
+          "name_fr": "Haraza",
+          "name_ar": "حرزة"
+        },
+        {
+          "name_fr": "Hasnaoua",
+          "name_ar": "حسناوة"
+        },
+        {
+          "name_fr": "Khelil",
+          "name_ar": "خليل"
+        },
+        {
+          "name_fr": "Ksour",
+          "name_ar": "القصور"
+        },
+        {
+          "name_fr": "Mansoura",
+          "name_ar": "المنصورة"
+        },
+        {
+          "name_fr": "Medjana",
+          "name_ar": "مجدل"
+        },
+        {
+          "name_fr": "Ouled Brahem",
+          "name_ar": "أولاد براهم"
+        },
+        {
+          "name_fr": "Ouled Dahmane",
+          "name_ar": "أولاد دحمان"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "name_ar": "بومرداس",
+      "name_fr": "Boumerdes",
+      "baladiyat": [
+        {
+          "name_fr": "Afir",
+          "name_ar": "أفير"
+        },
+        {
+          "name_fr": "Ammal",
+          "name_ar": "أملال"
+        },
+        {
+          "name_fr": "Baghlia",
+          "name_ar": "بغلية"
+        },
+        {
+          "name_fr": "Ben Choud",
+          "name_ar": "بن شود"
+        },
+        {
+          "name_fr": "Beni Amrane",
+          "name_ar": "بني عمران"
+        },
+        {
+          "name_fr": "Bordj Menaïel",
+          "name_ar": "برج منايل"
+        },
+        {
+          "name_fr": "Boudouaou",
+          "name_ar": "بودواو"
+        },
+        {
+          "name_fr": "Boudouaou El Bahri",
+          "name_ar": "بودواو البحري"
+        },
+        {
+          "name_fr": "Boumerdès",
+          "name_ar": "بومرداس"
+        },
+        {
+          "name_fr": "Bouzegza Keddara",
+          "name_ar": "بوزقزة قدّارة"
+        },
+        {
+          "name_fr": "Chabet el Ameur",
+          "name_ar": "شطابة الأمور"
+        },
+        {
+          "name_fr": "Corso",
+          "name_ar": "كورسو"
+        },
+        {
+          "name_fr": "Dellys",
+          "name_ar": "ديليس"
+        },
+        {
+          "name_fr": "Djinet",
+          "name_ar": "جنيت"
+        },
+        {
+          "name_fr": "El Kharrouba",
+          "name_ar": "الخروبة"
+        },
+        {
+          "name_fr": "Hammedi",
+          "name_ar": "حمّادي"
+        },
+        {
+          "name_fr": "Issers",
+          "name_ar": "إيسر"
+        },
+        {
+          "name_fr": "Khemis El Kechna",
+          "name_ar": "خميس الكتشنة"
+        },
+        {
+          "name_fr": "Larbatache",
+          "name_ar": "لربطاش"
+        },
+        {
+          "name_fr": "Leghata",
+          "name_ar": "لغاطة"
+        },
+        {
+          "name_fr": "Naciria",
+          "name_ar": "الناصرية"
+        },
+        {
+          "name_fr": "Ouled Aïssa",
+          "name_ar": "أولاد عيسى"
+        },
+        {
+          "name_fr": "Ouled Hedadj",
+          "name_ar": "أولاد حداج"
+        },
+        {
+          "name_fr": "Ouled Moussa",
+          "name_ar": "أولاد موسى"
+        },
+        {
+          "name_fr": "Si Mustapha",
+          "name_ar": "سي مصطفى"
+        },
+        {
+          "name_fr": "Sidi Daoud",
+          "name_ar": "سيدي داود"
+        },
+        {
+          "name_fr": "Souk El Had",
+          "name_ar": "سوق الأحد"
+        },
+        {
+          "name_fr": "Taourga",
+          "name_ar": "تاورقة"
+        },
+        {
+          "name_fr": "Thénia",
+          "name_ar": "ذنيّا"
+        },
+        {
+          "name_fr": "Tidjelabine",
+          "name_ar": "تيدج اللابين"
+        },
+        {
+          "name_fr": "Timezrit",
+          "name_ar": "تيمزريت"
+        },
+        {
+          "name_fr": "Zemmouri",
+          "name_ar": "زمّوري"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "name_ar": "الطارف",
+      "name_fr": "El Tarf",
+      "baladiyat": [
+        {
+          "name_fr": "El Tarf",
+          "name_ar": "الطارف"
+        },
+        {
+          "name_fr": "Aïn El Assel",
+          "name_ar": "عين العسل"
+        },
+        {
+          "name_fr": "Aïn Kerma",
+          "name_ar": "عين كرمة"
+        },
+        {
+          "name_fr": "Ben M’Hidi",
+          "name_ar": "بن مهيدي"
+        },
+        {
+          "name_fr": "Boudjebaa El Boudri",
+          "name_ar": "بو جبعة البودري"
+        },
+        {
+          "name_fr": "Bouhadjar",
+          "name_ar": "بوحَجار"
+        },
+        {
+          "name_fr": "Bouteldja",
+          "name_ar": "بوطلّجة"
+        },
+        {
+          "name_fr": "Dréan",
+          "name_ar": "الزريّان"
+        },
+        {
+          "name_fr": "El Kala",
+          "name_ar": "القالة"
+        },
+        {
+          "name_fr": "El Aioun",
+          "name_ar": "العين"
+        },
+        {
+          "name_fr": "El Mezagh",
+          "name_ar": "المزاغ"
+        },
+        {
+          "name_fr": "Hammam Beni Salah",
+          "name_ar": "حمّام بني صالح"
+        },
+        {
+          "name_fr": "Lac des Oiseaux",
+          "name_ar": "بحيرة الطيور"
+        },
+        {
+          "name_fr": "Oum El Assel",
+          "name_ar": "أم العسل"
+        },
+        {
+          "name_fr": "Raml Souk",
+          "name_ar": "رمل السوق"
+        },
+        {
+          "name_fr": "Zitouna",
+          "name_ar": "زيتونة"
+        },
+        {
+          "name_fr": "Bougous",
+          "name_ar": "بوقوس"
+        },
+        {
+          "name_fr": "Souarekh",
+          "name_ar": "صوارخ"
+        },
+        {
+          "name_fr": "Chebaita Mokhtar",
+          "name_ar": "شحايتة مختار"
+        },
+        {
+          "name_fr": "Berrihane",
+          "name_ar": "بريحان"
+        },
+        {
+          "name_fr": "Dar Chioukh",
+          "name_ar": "دار الشيوخ"
+        },
+        {
+          "name_fr": "Zarza",
+          "name_ar": "زرزة"
+        },
+        {
+          "name_fr": "Boutriaa",
+          "name_ar": "بوطرائع"
+        }
+      ]
+    },
+    {
+      "code": "37",
+      "name_ar": "تندوف",
+      "name_fr": "Tindouf",
+      "baladiyat": [
+        {
+          "name_fr": "Tindouf",
+          "name_ar": "تندوف"
+        },
+        {
+          "name_fr": "Oum El Assel",
+          "name_ar": "أم العسل"
+        }
+      ]
+    },
+    {
+      "code": "38",
+      "name_ar": "تيسمسيلت",
+      "name_fr": "Tissemsilt",
+      "baladiyat": [
+        {
+          "name_fr": "Lazharia",
+          "name_ar": "لذّارية"
+        },
+        {
+          "name_fr": "Maacem",
+          "name_ar": "المعاصم"
+        },
+        {
+          "name_fr": "Oued El Berdi",
+          "name_ar": "وادي البردي"
+        },
+        {
+          "name_fr": "Lemsane",
+          "name_ar": "لمسان"
+        },
+        {
+          "name_fr": "Tissemsilt",
+          "name_ar": "تيسمسيلت"
+        },
+        {
+          "name_fr": "Boucaid",
+          "name_ar": "بوعكاز"
+        },
+        {
+          "name_fr": "Bordj El Emir Abdelkader",
+          "name_ar": "برج الأمير عبد القادر"
+        },
+        {
+          "name_fr": "Sidi Boutouchent",
+          "name_ar": "سيدي بوطوشنت"
+        },
+        {
+          "name_fr": "Oued Sefioun",
+          "name_ar": "وادي سفيون"
+        },
+        {
+          "name_fr": "Sidi Lantri",
+          "name_ar": "سيدي لنتري"
+        },
+        {
+          "name_fr": "Sefiane",
+          "name_ar": "سفيان"
+        },
+        {
+          "name_fr": "Akka Djess",
+          "name_ar": "عقة جيس"
+        },
+        {
+          "name_fr": "Aïn El Hadid",
+          "name_ar": "عين الحديد"
+        },
+        {
+          "name_fr": "Khemisti",
+          "name_ar": "خماستي"
+        },
+        {
+          "name_fr": "Beni Chaib",
+          "name_ar": "بني شعيب"
+        },
+        {
+          "name_fr": "Aïn Débid",
+          "name_ar": "عين الديبيد"
+        },
+        {
+          "name_fr": "Aïn Boukaïs",
+          "name_ar": "عين بوقايس"
+        },
+        {
+          "name_fr": "Bordj Bounaama",
+          "name_ar": "برج بونعامة"
+        },
+        {
+          "name_fr": "Sidi Lantri",
+          "name_ar": "سيدي لنتري"
+        },
+        {
+          "name_fr": "Khemisti",
+          "name_ar": "خماستي"
+        }
+      ]
+    },
+    {
+      "code": "39",
+      "name_ar": "الوادي",
+      "name_fr": "El Oued",
+      "baladiyat": [
+        {
+          "name_fr": "El Oued",
+          "name_ar": "الوادي"
+        },
+        {
+          "name_fr": "El M'Ghair",
+          "name_ar": "المغير"
+        },
+        {
+          "name_fr": "Bougous",
+          "name_ar": "بوقوس"
+        },
+        {
+          "name_fr": "Hassani Abdelkrim",
+          "name_ar": "حسني عبد الكريم"
+        },
+        {
+          "name_fr": "Kouinine",
+          "name_ar": "كوينين"
+        },
+        {
+          "name_fr": "Magrane",
+          "name_ar": "مقرن"
+        },
+        {
+          "name_fr": "Trifaoui",
+          "name_ar": "طريفاوي"
+        },
+        {
+          "name_fr": "Reguiba",
+          "name_ar": "رقيبة"
+        },
+        {
+          "name_fr": "Kebilet Debbih",
+          "name_ar": "القليبة الضبيح"
+        },
+        {
+          "name_fr": "Guemar",
+          "name_ar": "قمار"
+        },
+        {
+          "name_fr": "Dleuh Merad",
+          "name_ar": "دلوع مراد"
+        },
+        {
+          "name_fr": "Djamaa",
+          "name_ar": "جمعة"
+        },
+        {
+          "name_fr": "Hamri",
+          "name_ar": "حمري"
+        },
+        {
+          "name_fr": "Bayadha",
+          "name_ar": "بياضة"
+        },
+        {
+          "name_fr": "Sidi Aoun",
+          "name_ar": "سيدي عون"
+        },
+        {
+          "name_fr": "Souk Naamane",
+          "name_ar": "سوق نعمان"
+        },
+        {
+          "name_fr": "Nakhla",
+          "name_ar": "نخلة"
+        },
+        {
+          "name_fr": "M'Rara",
+          "name_ar": "معزالة"
+        },
+        {
+          "name_fr": "Debila",
+          "name_ar": "دبيلة"
+        },
+        {
+          "name_fr": "Hamraia",
+          "name_ar": "حمراية"
+        },
+        {
+          "name_fr": "Taleb Larbi",
+          "name_ar": "طالب العربي"
+        },
+        {
+          "name_fr": "Nepiki",
+          "name_ar": "نيبيكي"
+        },
+        {
+          "name_fr": "Djorf Torba",
+          "name_ar": "جرف الطراب"
+        },
+        {
+          "name_fr": "Sidi Amrane",
+          "name_ar": "سيدي عمران"
+        },
+        {
+          "name_fr": "Reguiba",
+          "name_ar": "رقيبة"
+        }
+      ]
+    },
+    {
+      "code": "40",
+      "name_ar": "خنشلة",
+      "name_fr": "Khenchela",
+      "baladiyat": [
+        {
+          "name_fr": "Khenchela",
+          "name_ar": "خنشلة"
+        },
+        {
+          "name_fr": "Babar",
+          "name_ar": "ببر"
+        },
+        {
+          "name_fr": "Chechar",
+          "name_ar": "عشّار"
+        },
+        {
+          "name_fr": "El Hamma",
+          "name_ar": "الحامة"
+        },
+        {
+          "name_fr": "Kaâ El Aïd",
+          "name_ar": "قاعة العيد"
+        },
+        {
+          "name_fr": "Ouled Rechache",
+          "name_ar": "أولاد رشاش"
+        },
+        {
+          "name_fr": "M'Sara",
+          "name_ar": "مسارة"
+        },
+        {
+          "name_fr": "Yabous",
+          "name_ar": "يبوس"
+        },
+        {
+          "name_fr": "Bir Soltane",
+          "name_ar": "بير السلطان"
+        },
+        {
+          "name_fr": "Tazbalet",
+          "name_ar": "تازبليت"
+        },
+        {
+          "name_fr": "Ouled Hamma",
+          "name_ar": "أولاد الحمة"
+        },
+        {
+          "name_fr": "Ensigha",
+          "name_ar": "أنسيغة"
+        },
+        {
+          "name_fr": "Taouzient",
+          "name_ar": "تاوزيانت"
+        },
+        {
+          "name_fr": "Beni Ouenza",
+          "name_ar": "بني ونانسة"
+        },
+        {
+          "name_fr": "Kaïs",
+          "name_ar": "قايّس"
+        },
+        {
+          "name_fr": "Tibane",
+          "name_ar": "طِبان"
+        },
+        {
+          "name_fr": "El Mahmal",
+          "name_ar": "المحمل"
+        },
+        {
+          "name_fr": "El Oueldja",
+          "name_ar": "الولجة"
+        },
+        {
+          "name_fr": "Aïn Touila",
+          "name_ar": "عين طويلـة"
+        },
+        {
+          "name_fr": "Chelia",
+          "name_ar": "شليّة"
+        },
+        {
+          "name_fr": "El Chambi",
+          "name_ar": "الشّعبي"
+        }
+      ]
+    },
+    {
+      "code": "41",
+      "name_ar": "سوق أهراس",
+      "name_fr": "Souk Ahras",
+      "baladiyat": [
+        {
+          "name_fr": "Souk Ahras",
+          "name_ar": "سوق أهراس"
+        },
+        {
+          "name_fr": "Bir Bouhouche",
+          "name_ar": "بئر بوحوش"
+        },
+        {
+          "name_fr": "Zaarouria",
+          "name_ar": "زعروية"
+        },
+        {
+          "name_fr": "Ouillen",
+          "name_ar": "ويلان"
+        },
+        {
+          "name_fr": "Taoura",
+          "name_ar": "طاوورة"
+        },
+        {
+          "name_fr": "Ouled Driss",
+          "name_ar": "أولاد إدريس"
+        },
+        {
+          "name_fr": "Ramdane Djamel",
+          "name_ar": "رمدان جمال"
+        },
+        {
+          "name_fr": "Merahna",
+          "name_ar": "مرحنة"
+        },
+        {
+          "name_fr": "Haddada",
+          "name_ar": "حدادة"
+        },
+        {
+          "name_fr": "M’doukel",
+          "name_ar": "مدوكال"
+        },
+        {
+          "name_fr": "Hannencha",
+          "name_ar": "حنانشة"
+        },
+        {
+          "name_fr": "Oum El Adhaïm",
+          "name_ar": "أم العظائم"
+        },
+        {
+          "name_fr": "Morsott",
+          "name_ar": "مرسوط"
+        },
+        {
+          "name_fr": "Tiffech",
+          "name_ar": "طيفاش"
+        },
+        {
+          "name_fr": "Ain Zana",
+          "name_ar": "عين الزانة"
+        },
+        {
+          "name_fr": "Cherchar",
+          "name_ar": "شرشار"
+        },
+        {
+          "name_fr": "El Malah",
+          "name_ar": "الملاح"
+        },
+        {
+          "name_fr": "Tebessa",
+          "name_ar": "تبسة"
+        },
+        {
+          "name_fr": "Mekkera",
+          "name_ar": "مكّرة"
+        },
+        {
+          "name_fr": "Bir Bouhouche",
+          "name_ar": "بئر بوحوش"
+        }
+      ]
+    },
+    {
+      "code": "42",
+      "name_ar": "تيبازة",
+      "name_fr": "Tipaza",
+      "baladiyat": [
+        {
+          "name_fr": "Tipaza",
+          "name_ar": "تيبازة"
+        },
+        {
+          "name_fr": "Ahmer El Ain",
+          "name_ar": "أحمر العيون"
+        },
+        {
+          "name_fr": "Aïn Tagourait",
+          "name_ar": "عين تاجرايت"
+        },
+        {
+          "name_fr": "Damous",
+          "name_ar": "داموس"
+        },
+        {
+          "name_fr": "Douaouda",
+          "name_ar": "ذواودة"
+        },
+        {
+          "name_fr": "Fouka",
+          "name_ar": "فوڭة"
+        },
+        {
+          "name_fr": "Hadjout",
+          "name_ar": "حجوط"
+        },
+        {
+          "name_fr": "Kolea",
+          "name_ar": "القليعة"
+        },
+        {
+          "name_fr": "Maamora",
+          "name_ar": "المعمورة"
+        },
+        {
+          "name_fr": "Menaceur",
+          "name_ar": "منصراجل"
+        },
+        {
+          "name_fr": "Nador",
+          "name_ar": "ناضور"
+        },
+        {
+          "name_fr": "Oued Djemaa",
+          "name_ar": "وادي جمعة"
+        },
+        {
+          "name_fr": "Sidi Amar",
+          "name_ar": "سيدي عامر"
+        },
+        {
+          "name_fr": "Sidi Ghiles",
+          "name_ar": "سيدي غيلس"
+        },
+        {
+          "name_fr": "Souiche",
+          "name_ar": "سويقة"
+        },
+        {
+          "name_fr": "Sour El Ghozlane",
+          "name_ar": "سور الغزلان"
+        },
+        {
+          "name_fr": "Tala Hamza",
+          "name_ar": "تالة حمزة"
+        },
+        {
+          "name_fr": "Tankra",
+          "name_ar": "تانقرة"
+        },
+        {
+          "name_fr": "Tipaza",
+          "name_ar": "تيبازة"
+        }
+      ]
+    },
+    {
+      "code": "43",
+      "name_ar": "ميلة",
+      "name_fr": "Mila",
+      "baladiyat": [
+        {
+          "name_fr": "Mila",
+          "name_ar": "ميلة"
+        },
+        {
+          "name_fr": "Aïn Beïda Harriche",
+          "name_ar": "عين البيضاء حريش"
+        },
+        {
+          "name_fr": "El Ayadi Barbes",
+          "name_ar": "العيايدي برباس"
+        },
+        {
+          "name_fr": "Bouhatem",
+          "name_ar": "بوهاتم"
+        },
+        {
+          "name_fr": "Derrahi Bousselah",
+          "name_ar": "دراهي بوسلهة"
+        },
+        {
+          "name_fr": "Chelghoum Laïd",
+          "name_ar": "شلغوم العيد"
+        },
+        {
+          "name_fr": "Oued Athmenia",
+          "name_ar": "وادي العثمانية"
+        },
+        {
+          "name_fr": "Ferdjioua",
+          "name_ar": "فردجية"
+        },
+        {
+          "name_fr": "Yahia Beniguecha",
+          "name_ar": "يحيى بن يقظة"
+        },
+        {
+          "name_fr": "Grarem Gouga",
+          "name_ar": "كرارم قوقة"
+        },
+        {
+          "name_fr": "Tassadane Haddada",
+          "name_ar": "تسعدان حدادة"
+        },
+        {
+          "name_fr": "Teleghma",
+          "name_ar": "تيليغما"
+        },
+        {
+          "name_fr": "Tadjenanet",
+          "name_ar": "تاجنانت"
+        },
+        {
+          "name_fr": "Zaccar",
+          "name_ar": "زقار"
+        },
+        {
+          "name_fr": "Sidi Merouane",
+          "name_ar": "سيدي ماروان"
+        },
+        {
+          "name_fr": "Oued Endja",
+          "name_ar": "وادي النجاء"
+        },
+        {
+          "name_fr": "Ben Azzouz",
+          "name_ar": "بن عزوز"
+        },
+        {
+          "name_fr": "Oued Miliane",
+          "name_ar": "وادي مليان"
+        },
+        {
+          "name_fr": "Chelia",
+          "name_ar": "شلية"
+        },
+        {
+          "name_fr": "Bouhattem",
+          "name_ar": "بوهاتم"
+        },
+        {
+          "name_fr": "Oued Tair",
+          "name_ar": "وادي الطير"
+        },
+        {
+          "name_fr": "Telagh",
+          "name_ar": "تلاق"
+        },
+        {
+          "name_fr": "Tibera",
+          "name_ar": "تيبرير"
+        },
+        {
+          "name_fr": "Graret el Adhara",
+          "name_ar": "قارة الذهرة"
+        },
+        {
+          "name_fr": "Oued Kader",
+          "name_ar": "وادي القادر"
+        },
+        {
+          "name_fr": "Beniane",
+          "name_ar": "بنيان"
+        },
+        {
+          "name_fr": "Sidi Kacem",
+          "name_ar": "سيدي قاسم"
+        },
+        {
+          "name_fr": "Tizi Ouzou",
+          "name_ar": "تيزي وزو"
+        },
+        {
+          "name_fr": "Zorg",
+          "name_ar": "زروق"
+        },
+        {
+          "name_fr": "Aïn Kradja",
+          "name_ar": "عين كراضة"
+        },
+        {
+          "name_fr": "Kef Lakhdar",
+          "name_ar": "كف الأخضر"
+        },
+        {
+          "name_fr": "Ben Aïn Khaled",
+          "name_ar": "بن عين خالد"
+        },
+        {
+          "name_fr": "Oued Itisser",
+          "name_ar": "وادي العطسير"
+        }
+      ]
+    },
+    {
+      "code": "44",
+      "name_ar": "عين الدفلى",
+      "name_fr": "Ain Defla",
+      "baladiyat": [
+        {
+          "name_fr": "Aïn Defla",
+          "name_ar": "عين الدفلى"
+        },
+        {
+          "name_fr": "Aïn Lechiakh",
+          "name_ar": "عين لشياخ"
+        },
+        {
+          "name_fr": "Aïn Soltane",
+          "name_ar": "عين سلطان"
+        },
+        {
+          "name_fr": "Aïn Torki",
+          "name_ar": "عين تركي"
+        },
+        {
+          "name_fr": "Arib",
+          "name_ar": "عريب"
+        },
+        {
+          "name_fr": "Bathia",
+          "name_ar": "بطحية"
+        },
+        {
+          "name_fr": "Belaas",
+          "name_ar": "بلعاص"
+        },
+        {
+          "name_fr": "Ben Allal",
+          "name_ar": "بن علال"
+        },
+        {
+          "name_fr": "Bir Ould Khelifa",
+          "name_ar": "بير ولد خليفة"
+        },
+        {
+          "name_fr": "Bordj Emir Khaled",
+          "name_ar": "برج الأمير خالد"
+        },
+        {
+          "name_fr": "Boumedfaa",
+          "name_ar": "بومدفع"
+        },
+        {
+          "name_fr": "Bourached",
+          "name_ar": "بوراشد"
+        },
+        {
+          "name_fr": "Djelida",
+          "name_ar": "جليدة"
+        },
+        {
+          "name_fr": "Djemaa Ouled Cheikh",
+          "name_ar": "جمعة أولاد الشيخ"
+        },
+        {
+          "name_fr": "Djendel",
+          "name_ar": "جندل"
+        },
+        {
+          "name_fr": "El Abadia",
+          "name_ar": "العبادية"
+        },
+        {
+          "name_fr": "El Amra",
+          "name_ar": "العمرة"
+        },
+        {
+          "name_fr": "El Attaf",
+          "name_ar": "العطاف"
+        },
+        {
+          "name_fr": "El Hassania",
+          "name_ar": "الحساسنة"
+        },
+        {
+          "name_fr": "El Maine",
+          "name_ar": "الماين"
+        },
+        {
+          "name_fr": "Hammam Righa",
+          "name_ar": "حمام ريغة"
+        },
+        {
+          "name_fr": "Hoceinia",
+          "name_ar": "الحسينية"
+        },
+        {
+          "name_fr": "Khemis Miliana",
+          "name_ar": "خميس مليانة"
+        },
+        {
+          "name_fr": "Mekhatria",
+          "name_ar": "مخاطرية"
+        },
+        {
+          "name_fr": "Miliana",
+          "name_ar": "مليانة"
+        },
+        {
+          "name_fr": "Oued Chorfa",
+          "name_ar": "وادي شرفة"
+        },
+        {
+          "name_fr": "Oued Djemaa",
+          "name_ar": "وادي جمعة"
+        },
+        {
+          "name_fr": "Rouina",
+          "name_ar": "رويـــــنة"
+        },
+        {
+          "name_fr": "Sidi Lakhdar",
+          "name_ar": "سيدي لخضر"
+        },
+        {
+          "name_fr": "Tacheta Zougagha",
+          "name_ar": "تاشتة زقاغة"
+        },
+        {
+          "name_fr": "Tarik Ibn Ziad",
+          "name_ar": "طارق بن زياد"
+        },
+        {
+          "name_fr": "Tiberkanine",
+          "name_ar": "تبركانين"
+        },
+        {
+          "name_fr": "Zeddine",
+          "name_ar": "زديـــــن"
+        }
+      ]
+    },
+    {
+      "code": "45",
+      "name_ar": "النعامة",
+      "name_fr": "Naama",
+      "baladiyat": [
+        {
+          "name_fr": "Naâma",
+          "name_ar": "النعامة"
+        },
+        {
+          "name_fr": "Moghrar",
+          "name_ar": "مغـرار"
+        },
+        {
+          "name_fr": "Sfissifa",
+          "name_ar": "سفيزيفة"
+        },
+        {
+          "name_fr": "Asla",
+          "name_ar": "أسلة"
+        },
+        {
+          "name_fr": "Mécheria",
+          "name_ar": "ماقـرية"
+        },
+        {
+          "name_fr": "Mansourah",
+          "name_ar": "منصورة"
+        },
+        {
+          "name_fr": "Sahnoun",
+          "name_ar": "صـهونو"
+        },
+        {
+          "name_fr": "Tiouti",
+          "name_ar": "طيوتي"
+        },
+        {
+          "name_fr": "Kenadsa",
+          "name_ar": "القنادسة"
+        },
+        {
+          "name_fr": "Djebabra",
+          "name_ar": "جبابرة"
+        },
+        {
+          "name_fr": "Asla",
+          "name_ar": "أسلة"
+        },
+        {
+          "name_fr": "Kasdir",
+          "name_ar": "قاصدير"
+        }
+      ]
+    },
+    {
+      "code": "46",
+      "name_ar": "عين تموشنت",
+      "name_fr": "Ain Temouchent",
+      "baladiyat": [
+        {
+          "name_fr": "Aïn Témouchent",
+          "name_ar": "عين تموشنت"
+        },
+        {
+          "name_fr": "El Malah",
+          "name_ar": "الملاح"
+        },
+        {
+          "name_fr": "Oulhaça El Gheraba",
+          "name_ar": "الولّاحة الغرباء"
+        },
+        {
+          "name_fr": "Chentoufa",
+          "name_ar": "شنتوفة"
+        },
+        {
+          "name_fr": "Aït Kheir",
+          "name_ar": "آيت خير"
+        },
+        {
+          "name_fr": "El Amria",
+          "name_ar": "العمرية"
+        },
+        {
+          "name_fr": "Sidi Ben Adda",
+          "name_ar": "سيدي بن عَدة"
+        },
+        {
+          "name_fr": "Hassasna",
+          "name_ar": "الحساسنة"
+        },
+        {
+          "name_fr": "Boulimat",
+          "name_ar": "بوليمات"
+        },
+        {
+          "name_fr": "Beni Saf",
+          "name_ar": "بني صاف"
+        },
+        {
+          "name_fr": "Sidi Safi",
+          "name_ar": "سيدي الصافي"
+        },
+        {
+          "name_fr": "Oued Berkeche",
+          "name_ar": "وادي بركاش"
+        },
+        {
+          "name_fr": "El Harcha",
+          "name_ar": "الحرشة"
+        },
+        {
+          "name_fr": "Aïn Kihal",
+          "name_ar": "عين كيحال"
+        },
+        {
+          "name_fr": "Ain El Orak",
+          "name_ar": "عين الوراق"
+        },
+        {
+          "name_fr": "Sidi Boumediene",
+          "name_ar": "سيدي بومدين"
+        },
+        {
+          "name_fr": "Sidi Ouriache",
+          "name_ar": "سيدي ورياش"
+        },
+        {
+          "name_fr": "Oued Sebaa",
+          "name_ar": "وادي سبعة"
+        },
+        {
+          "name_fr": "Oued Tolba",
+          "name_ar": "وادي الطلقة"
+        },
+        {
+          "name_fr": "Aïn Zerga",
+          "name_ar": "عين زرقة"
+        },
+        {
+          "name_fr": "Sidi Bouabdelli",
+          "name_ar": "سيدي بوعبدلي"
+        },
+        {
+          "name_fr": "Bou Hanifia",
+          "name_ar": "بو حنيفية"
+        },
+        {
+          "name_fr": "El Ghomri",
+          "name_ar": "الغمري"
+        },
+        {
+          "name_fr": "Bouzedjar",
+          "name_ar": "بوزدجار"
+        },
+        {
+          "name_fr": "Oued Berkeche",
+          "name_ar": "وادي بركاش"
+        }
+      ]
+    },
+    {
+      "code": "47",
+      "name_ar": "غرداية",
+      "name_fr": "Ghardaia",
+      "baladiyat": [
+        {
+          "name_fr": "Ghardaïa",
+          "name_ar": "غرداية"
+        },
+        {
+          "name_fr": "M’zab",
+          "name_ar": "مزاب"
+        },
+        {
+          "name_fr": "Metlili",
+          "name_ar": "متليلي"
+        },
+        {
+          "name_fr": "El Atteuf",
+          "name_ar": "العتاف"
+        },
+        {
+          "name_fr": "Bounoura",
+          "name_ar": "بونورة"
+        },
+        {
+          "name_fr": "Guerrara",
+          "name_ar": "قرارة"
+        },
+        {
+          "name_fr": "Zelfana",
+          "name_ar": "زلفانة"
+        },
+        {
+          "name_fr": "El Ménia",
+          "name_ar": "المنيعة"
+        },
+        {
+          "name_fr": "Bent Cherk",
+          "name_ar": "بنت شرك"
+        },
+        {
+          "name_fr": "Hassi Fehal",
+          "name_ar": "حاسي فحال"
+        },
+        {
+          "name_fr": "Taghrine",
+          "name_ar": "تغرين"
+        },
+        {
+          "name_fr": "Zaouia El Abidia",
+          "name_ar": "زاوية العبادية"
+        },
+        {
+          "name_fr": "Berriane",
+          "name_ar": "بريان"
+        }
+      ]
+    },
+    {
+      "code": "48",
+      "name_ar": "غليزان",
+      "name_fr": "Relizane",
+      "baladiyat": [
+        {
+          "name_fr": "Relizane",
+          "name_ar": "غليزان"
+        },
+        {
+          "name_fr": "Aïn Rahma",
+          "name_ar": "عين الرحمة"
+        },
+        {
+          "name_fr": "Aïn Taga",
+          "name_ar": "عين تقا"
+        },
+        {
+          "name_fr": "Ammi Moussa",
+          "name_ar": "عمي موسى"
+        },
+        {
+          "name_fr": "Djidiouia",
+          "name_ar": "جديّويا"
+        },
+        {
+          "name_fr": "El Hamri",
+          "name_ar": "الحَمري"
+        },
+        {
+          "name_fr": "El H'Madna",
+          "name_ar": "الحمدنة"
+        },
+        {
+          "name_fr": "Mazouna",
+          "name_ar": "مازونة"
+        },
+        {
+          "name_fr": "Oued Rhiou",
+          "name_ar": "وادي روحيو"
+        },
+        {
+          "name_fr": "Ramka",
+          "name_ar": "رامكة"
+        },
+        {
+          "name_fr": "Zemmoura",
+          "name_ar": "زمورة"
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "name_ar": "ولاية 49",
+      "name_fr": "Wilaya 49",
+      "baladiyat": [
+        {
+          "name_fr": "Timimoun",
+          "name_ar": "تيميمون"
+        },
+        {
+          "name_fr": "Aoulef",
+          "name_ar": "أولف"
+        },
+        {
+          "name_fr": "Charouine",
+          "name_ar": "شروين"
+        },
+        {
+          "name_fr": "In Salah",
+          "name_ar": "إن صالح"
+        },
+        {
+          "name_fr": "Foggaret Ezzaouia",
+          "name_ar": "فـقـاريت الزاوية"
+        },
+        {
+          "name_fr": "Tinerkouk",
+          "name_ar": "تينركوك"
+        },
+        {
+          "name_fr": "Eghamine",
+          "name_ar": "إغامين"
+        },
+        {
+          "name_fr": "Tamentit",
+          "name_ar": "تمنتيت"
+        },
+        {
+          "name_fr": "Fenoughil",
+          "name_ar": "فنوغيل"
+        },
+        {
+          "name_fr": "Bordj Badji Mokhtar",
+          "name_ar": "برج باجي مختار"
+        }
+      ]
+    },
+    {
+      "code": "50",
+      "name_ar": "ولاية 50",
+      "name_fr": "Wilaya 50",
+      "baladiyat": [
+        {
+          "name_fr": "Bordj Badji Mokhtar",
+          "name_ar": "برج باجي مختار"
+        },
+        {
+          "name_fr": "Timiaouine",
+          "name_ar": "تيمياوين"
+        }
+      ]
+    },
+    {
+      "code": "51",
+      "name_ar": "الوادي",
+      "name_fr": "El Oued",
+      "baladiyat": [
+        {
+          "name_fr": "Ouled Djellal",
+          "name_ar": "أولاد جلال"
+        },
+        {
+          "name_fr": "Sidi Khaled",
+          "name_ar": "سيدي خالد"
+        },
+        {
+          "name_fr": "Bordj Ben Azzouz",
+          "name_ar": "برج بن عزوز"
+        },
+        {
+          "name_fr": "Besbes",
+          "name_ar": "بسباس"
+        },
+        {
+          "name_fr": "Lioua",
+          "name_ar": "ليواء"
+        },
+        {
+          "name_fr": "El Aioun",
+          "name_ar": "العيون"
+        }
+      ]
+    },
+    {
+      "code": "52",
+      "name_ar": "خنشلة",
+      "name_fr": "Khenchela",
+      "baladiyat": [
+        {
+          "name_fr": "Béni Abbès",
+          "name_ar": "بني عباس"
+        },
+        {
+          "name_fr": "El Ouata",
+          "name_ar": "الواتة"
+        },
+        {
+          "name_fr": "Timimoun",
+          "name_ar": "تيميمون"
+        },
+        {
+          "name_fr": "Igli",
+          "name_ar": "إقلي"
+        },
+        {
+          "name_fr": "Béni Ikni",
+          "name_ar": "بني يكني"
+        },
+        {
+          "name_fr": "Béni Abbes",
+          "name_ar": "بني عباس"
+        },
+        {
+          "name_fr": "Kerzaz",
+          "name_ar": "قرزاز"
+        },
+        {
+          "name_fr": "Ouar er Baâ",
+          "name_ar": "وار البع"
+        },
+        {
+          "name_fr": "Tabelbala",
+          "name_ar": "تابلبالة"
+        },
+        {
+          "name_fr": "Timiaouine",
+          "name_ar": "تيمياوين"
+        }
+      ]
+    },
+    {
+      "code": "53",
+      "name_ar": "سوق أهراس",
+      "name_fr": "Souk Ahras",
+      "baladiyat": [
+        {
+          "name_fr": "In Salah",
+          "name_ar": "إن صالح"
+        },
+        {
+          "name_fr": "Timiaouine",
+          "name_ar": "تيمياوين"
+        },
+        {
+          "name_fr": "Foggaret Ezzaouia",
+          "name_ar": "فقّاريت الزاوية"
+        }
+      ]
+    },
+    {
+      "code": "54",
+      "name_ar": "تيبازة",
+      "name_fr": "Tipaza",
+      "baladiyat": [
+        {
+          "name_fr": "In Guezzam",
+          "name_ar": "إن قزام"
+        },
+        {
+          "name_fr": "Tin Zaouatine",
+          "name_ar": "تين زاواتين"
+        }
+      ]
+    },
+    {
+      "code": "55",
+      "name_ar": "ميلة",
+      "name_fr": "Mila",
+      "baladiyat": [
+        {
+          "name_fr": "Touggourt",
+          "name_ar": "تقرت"
+        },
+        {
+          "name_fr": "Megarine",
+          "name_ar": "مقرن"
+        },
+        {
+          "name_fr": "Taibet",
+          "name_ar": "الطايف"
+        },
+        {
+          "name_fr": "Benaceur",
+          "name_ar": "بن ناصر"
+        }
+      ]
+    },
+    {
+      "code": "56",
+      "name_ar": "عين الدفلى",
+      "name_fr": "Ain Defla",
+      "baladiyat": [
+        {
+          "name_fr": "Djanet",
+          "name_ar": "الجنات"
+        },
+        {
+          "name_fr": "Bordj El Haouas",
+          "name_ar": "برج الحواس"
+        }
+      ]
+    },
+    {
+      "code": "57",
+      "name_ar": "النعامة",
+      "name_fr": "Naama",
+      "baladiyat": [
+        {
+          "name_fr": "El M’Ghair",
+          "name_ar": "المغير"
+        },
+        {
+          "name_fr": "Tefreg",
+          "name_ar": "تفرّغ"
+        },
+        {
+          "name_fr": "Djamaa",
+          "name_ar": "جمعة"
+        },
+        {
+          "name_fr": "Sidi Amrane",
+          "name_ar": "سيدي عمران"
+        },
+        {
+          "name_fr": "Hamri",
+          "name_ar": "حمري"
+        },
+        {
+          "name_fr": "Reguiba",
+          "name_ar": "رقيبة"
+        },
+        {
+          "name_fr": "Mesonica",
+          "name_ar": "ميسونيقة"
+        },
+        {
+          "name_fr": "Oued Ba Kho",
+          "name_ar": "وادي باخوه"
+        }
+      ]
+    },
+    {
+      "code": "58",
+      "name_ar": "عين تموشنت",
+      "name_fr": "Ain Temouchent",
+      "baladiyat": [
+        {
+          "name_fr": "El Menia",
+          "name_ar": "المنيعة"
+        },
+        {
+          "name_fr": "Menia Kedache",
+          "name_ar": "منيعة كدّاش"
+        },
+        {
+          "name_fr": "Djamaa Soussia",
+          "name_ar": "جمعة سوسية"
+        },
+        {
+          "name_fr": "Sidi Slimane",
+          "name_ar": "سيدي سليمان"
+        }
+      ]
+    }
+  ]
+}

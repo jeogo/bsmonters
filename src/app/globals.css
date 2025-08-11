@@ -1,16 +1,17 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Brand gradient stops for CTA (optional reference) */
+  --brand-from: #2563eb; /* blue-600 */
+  --brand-to: #06b6d4;   /* cyan-400 */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Theme tokens can be mapped directly via CSS variables without @theme to avoid tooling warnings */
+/* Example: use var(--background) and var(--foreground) directly in utilities or custom classes */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,8 +20,28 @@
   }
 }
 
+html {
+  /* Arabic-first layout */
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+/* Base body styling */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Use Geist from next/font via CSS var with sensible fallbacks */
+  font-family: var(--font-arabic), var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system,
+    Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Better selection highlight */
+::selection {
+  background: color-mix(in oklab, var(--foreground) 16%, transparent);
+}
+
+/* Media elements scale nicely */
+img, svg, video, canvas {
+  display: block;
+  max-width: 100%;
 }
