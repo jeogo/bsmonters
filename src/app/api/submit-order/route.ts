@@ -1,14 +1,63 @@
 import { NextRequest, NextResponse } from 'next/server';
+import crypto from 'crypto';
 
-// Google Apps Script URL - ضع هنا الـ URL الجديد
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzlZo-iqI8X5JHljnzMuuIaAWpIFrgifnFO6kfHXeH3FRurybAcDikQfLirwQ6sGPzYjg/exec';
+// Google Apps Script Web App URL (POST JSON)
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwt_eJKAetN1Beyq_d8e50ibQG_T7r7uuuV-QhTbg1oMkrPToET4OCBxu3wdB_Xd4Uqdg/exec";
+
+interface ScriptResponse {
+  success?: boolean;
+  message?: string;
+  error?: string;
+  row?: number;
+  duplicate?: boolean;
+  clientRequestId?: string;
+  [k: string]: unknown;
+}
+
+// Single attempt with ONE optional retry (same clientRequestId) to avoid duplicate emails
+async function sendOnceWithOptionalRetry(orderData: Record<string, unknown>): Promise<ScriptResponse> {
+  const attemptSend = async (label: string) => {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 8000); // 8s timeout
+    try {
+      const res = await fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'User-Agent': 'BSMonsters-API/1.0' },
+        body: JSON.stringify(orderData),
+        signal: controller.signal,
+      });
+      clearTimeout(timeoutId);
+      const text = await res.text();
+  let json: ScriptResponse;
+      try { json = JSON.parse(text); } catch { json = { raw: text }; }
+      if(!res.ok) throw new Error('HTTP '+res.status+' '+res.statusText);
+      return json;
+    } catch (err) {
+      clearTimeout(timeoutId);
+      console.warn(`Attempt ${label} failed:`, err instanceof Error ? err.message : err);
+      throw err;
+    }
+  };
+  try {
+    return await attemptSend('primary');
+  } catch {
+    // network abort or transient error => one retry after short pause
+    await new Promise(r=>setTimeout(r, 1200));
+    return await attemptSend('retry');
+  }
+}
 
 export async function POST(request: NextRequest) {
   try {
-    // الحصول على البيانات من الطلب
+    // البيانات من العميل
     const orderData = await request.json();
+    // توليد أو تثبيت clientRequestId لضمان عدم التكرار (Apps Script يفحصه)
+    if(!orderData.clientRequestId){
+      orderData.clientRequestId = (crypto.randomUUID?.() || Date.now()+"-"+Math.random().toString(36).slice(2));
+    }
     
     console.log('📦 Received order data:', orderData);
+    
     // تحقق مبسط من البيانات المطلوبة قبل الإرسال
     if (!orderData?.fullName || !orderData?.phone || !orderData?.wilayaNameAr || !orderData?.baladiyaNameAr) {
       return NextResponse.json(
@@ -17,121 +66,47 @@ export async function POST(request: NextRequest) {
       );
     }
     
-    // إعداد مهلة قصيرة للاستجابة السريعة للمستخدم
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 6000);
-    let respondedQuickly = false;
-
+    // إرسال متحكم (محاولة + إعادة واحدة فقط)
+  let scriptResponse: ScriptResponse | undefined;
     try {
-      // إرسال البيانات إلى Google Apps Script مع مهلة
-      const response = await fetch(GOOGLE_SCRIPT_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(orderData),
-        signal: controller.signal,
-      });
-
-      clearTimeout(timeoutId);
-      console.log('📡 Google Script response status:', response.status);
-
-      if (!response.ok) {
-        console.error('❌ Google Script error:', response.statusText);
-        // نرجع نجاح للمستخدم مع متابعة خلف الكواليس
-        respondedQuickly = true;
-        // محاولة إعادة الإرسال بدون انتظار (خلف الكواليس)
-        fetch(GOOGLE_SCRIPT_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(orderData),
-        }).catch((err) => console.error('Background resend failed:', err));
-
-        return NextResponse.json(
-          { success: true, message: 'تم استلام طلبك 👍 سيتم تأكيده قريباً.' },
-          {
-            status: 200,
-            headers: {
-              'Access-Control-Allow-Origin': '*',
-              'Access-Control-Allow-Methods': 'POST, OPTIONS',
-              'Access-Control-Allow-Headers': 'Content-Type',
-            },
-          }
-        );
-      }
-
-      const result = await response.text();
-      console.log('✅ Google Script response:', result);
-
-      // محاولة تحليل الاستجابة كـ JSON
-      let jsonResult;
-      try {
-        jsonResult = JSON.parse(result);
-      } catch {
-        jsonResult = { success: true, message: 'تم استلام طلبك بنجاح' };
-      }
-
-      return NextResponse.json(jsonResult, {
-        status: 200,
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Methods': 'POST, OPTIONS',
-          'Access-Control-Allow-Headers': 'Content-Type',
-        },
-      });
-    } catch (err) {
-      // في حال المهلة/انقطاع الشبكة: نعيد نجاح سريع ونحاول الإرسال بالخلفية
-      if (!respondedQuickly) {
-        clearTimeout(timeoutId);
-        // محاولة خلفية دون انتظار
-        fetch(GOOGLE_SCRIPT_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(orderData),
-        }).catch((e) => console.error('Background send failed:', e));
-
-        return NextResponse.json(
-          { success: true, message: 'تم استلام طلبك ويجري تأكيده 📞' },
-          {
-            status: 200,
-            headers: {
-              'Access-Control-Allow-Origin': '*',
-              'Access-Control-Allow-Methods': 'POST, OPTIONS',
-              'Access-Control-Allow-Headers': 'Content-Type',
-            },
-          }
-        );
-      }
-      throw err;
+      scriptResponse = await sendOnceWithOptionalRetry(orderData);
+    } catch (finalErr){
+      console.error('Script send failed after retry:', finalErr);
+      // نرجع نجاحاً متفائلاً لأن الواجهة لا يجب أن تعيد الإرسال (لدينا معرف منع تكرار)
+      return NextResponse.json(
+        { success: true, optimistic: true, message: 'تم استلام طلبك (سيتم تأكيده هاتفياً)' },
+        { status: 200, headers: corsHeaders() }
+      );
     }
+
+    // استجابة السكربت (قد يكون raw)
+    if(!scriptResponse || typeof scriptResponse !== 'object'){
+      scriptResponse = { success: true, message: 'تم استلام طلبك' };
+    }
+    // ضمان success=true (السكريبت يُرجع success عند الحفظ)
+    if(scriptResponse.success !== false){
+      scriptResponse.clientRequestId = orderData.clientRequestId;
+    }
+    return NextResponse.json(scriptResponse, { status: 200, headers: corsHeaders() });
     
   } catch (error) {
     console.error('💥 API Route Error:', error);
     
     return NextResponse.json(
-      { 
-        success: false, 
-        error: 'حدث خطأ في معالجة طلبك. حاول مرة أخرى.' 
-      },
-      {
-        status: 500,
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Methods': 'POST, OPTIONS',
-          'Access-Control-Allow-Headers': 'Content-Type',
-        },
-      }
+      { success: false, error: 'خطأ داخلي غير متوقع' },
+      { status: 500, headers: corsHeaders() }
     );
   }
 }
 
 export async function OPTIONS() {
-  return new NextResponse(null, {
-    status: 200,
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
-    },
-  });
+  return new NextResponse(null, { status: 200, headers: corsHeaders() });
+}
+
+function corsHeaders(){
+  return {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+  };
 }

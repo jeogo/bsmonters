@@ -234,7 +234,7 @@ export default function Page() {
 
     const attempt = async () => {
       const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 6000);
+      const timeout = setTimeout(() => controller.abort(), 10000); // وقت مناسب لـ API route + Google Script
       try {
         const res = await fetch(API_URL, {
           method: "POST",
@@ -247,12 +247,14 @@ export default function Page() {
         const result = await res.json();
         if (!result.success) throw new Error(result.error || "REQUEST_FAILED");
         return true;
-      } catch {
+      } catch (error) {
+        clearTimeout(timeout);
+        console.error('خطأ في الإرسال:', error);
         return false;
       }
     };
 
-    // محاولة سريعة واحدة (الخادم يعالج إعادة الإرسال بخلفية عند الحاجة)
+    // محاولة واحدة مع وقت مناسب للـ API route
     const ok = await attempt();
     if (!ok) {
       setIsSubmitting(false);
@@ -261,6 +263,14 @@ export default function Page() {
     }
 
   setIsSubmitting(false);
+  
+  // Fire Lead event for successful order
+  trackFb('Lead', {
+    value: total,
+    currency: 'DZD',
+    content_name: 'Watch Order Completed'
+  });
+  
   setStep(5);
   };
 
@@ -439,10 +449,10 @@ function Step1Hero() {
     <StepCard>
       <div className="grid gap-10 sm:grid-cols-2 items-center">
         <div className="order-2 sm:order-1 space-y-8 text-center sm:text-right">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">الباكس الفاخر - عرض خاص لمدة 3 أيام فقط</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">البوكس الفاخر - عرض خاص لمدة 3 أيام فقط</h1>
           <div className="space-y-3 text-slate-800">
-            <p className="text-xl font-semibold leading-relaxed text-amber-700">🎁 الباكس الفاخر يحتوي على:</p>
-            <p className="text-lg leading-relaxed">• ساعة فاخرة + خاتم + براسليت</p>
+            <p className="text-xl font-semibold leading-relaxed text-amber-700">🎁 البوكس الفاخر يحتوي على:</p>
+            <p className="text-lg leading-relaxed">• ساعة فاخرة + خاتم + براسلي</p>
             <p className="text-lg leading-relaxed">• علبة فاخرة مجانية للهدايا</p>
             <p className="text-lg leading-relaxed">• عطر Sauvage (قارورة كبيرة) هدية من عندنا</p>
             <p className="text-lg leading-relaxed">• برتموني JeeP كاليتي ما شاء الله بالضمان</p>
@@ -753,7 +763,7 @@ function Step5Checkout({
               <option value="">اختر الولاية</option>
               {wilayaOptions.map((w) => (
                 <option key={w.value} value={w.value}>
-                  {w.label}
+                 {w.value}-{w.label} 
                 </option>
               ))}
             </select>
