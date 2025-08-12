@@ -439,11 +439,13 @@ function Step1Hero() {
     <StepCard>
       <div className="grid gap-10 sm:grid-cols-2 items-center">
         <div className="order-2 sm:order-1 space-y-8 text-center sm:text-right">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">عرض خاص لمدة 3 أيام فقط</h1>
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">الباكس الفاخر - عرض خاص لمدة 3 أيام فقط</h1>
           <div className="space-y-3 text-slate-800">
-            <p className="text-lg leading-relaxed">ساعة + خاتم + براسلي + علبة مجانية</p>
-            <p className="text-lg leading-relaxed">وزيد بارفان Sauvage (قارورة كبيرة) هدية من عندنا</p>
-            <p className="text-lg leading-relaxed">ببرتموني JeeP كاليتي ما شاء الله بالضمان</p>
+            <p className="text-xl font-semibold leading-relaxed text-amber-700">🎁 الباكس الفاخر يحتوي على:</p>
+            <p className="text-lg leading-relaxed">• ساعة فاخرة + خاتم + براسليت</p>
+            <p className="text-lg leading-relaxed">• علبة فاخرة مجانية للهدايا</p>
+            <p className="text-lg leading-relaxed">• عطر Sauvage (قارورة كبيرة) هدية من عندنا</p>
+            <p className="text-lg leading-relaxed">• برتموني JeeP كاليتي ما شاء الله بالضمان</p>
             <div className="relative p-6 bg-gradient-to-r from-red-50 to-red-100 rounded-2xl border-2 border-red-200 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
               <div className="absolute -top-3 right-4 bg-red-600 text-white px-4 py-1 rounded-full text-sm font-bold animate-pulse">
                 عرض خاص
@@ -470,7 +472,17 @@ function Step1Hero() {
         </div>
         <div className="order-1 sm:order-2 mt-4 sm:mt-0">
           <div className="relative w-full aspect-square overflow-hidden rounded-2xl bg-white/70 backdrop-blur-sm shadow-2xl">
-            <video className="absolute inset-0 w-full h-full object-cover" src="/videos/box.mp4" poster="/images/box/box.jpg" autoPlay loop muted playsInline />
+            <video 
+              className="absolute inset-0 w-full h-full object-cover" 
+              src="/videos/box.mp4" 
+              poster="/images/box/box.jpg" 
+              autoPlay 
+              loop 
+              muted 
+              playsInline
+              preload="metadata"
+              style={{ objectFit: 'cover' }}
+            />
             <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent pointer-events-none" />
           </div>
         </div>
@@ -497,7 +509,7 @@ function Step3Watch({
   <div className="space-y-8">
         <StepTitle subtitle="اختر ساعة واحدة من المجموعة. يمكنك مراجعة اختيارك في الخطوة التالية وتعديله إذا رغبت.">اختيار الساعة المفضلة</StepTitle>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
-          {watches.map((w) => {
+          {watches.map((w, index) => {
             const selected = selectedWatchId === w.id;
             return (
               <button
@@ -506,7 +518,17 @@ function Step3Watch({
                 className={`group relative overflow-hidden rounded-2xl bg-white/70 backdrop-blur-sm shadow-lg p-5 text-start transition hover:shadow-xl active:scale-[0.98] min-h-[200px] sm:min-h-[220px] ${selected ? "shadow-[0_0_0_6px_rgba(34,211,238,0.25)]" : ""}`}
               >
                 <div className="relative w-full aspect-square rounded-xl overflow-hidden bg-slate-50 grid place-items-center mb-4">
-                  <Image src={w.image} alt={w.name} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover" />
+                  <Image 
+                    src={w.image} 
+                    alt={w.name} 
+                    fill 
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw" 
+                    className="object-cover" 
+                    priority={index < 6}
+                    quality={85}
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                  />
                   {selected && (
                     <span className="absolute top-3 left-3 text-white bg-cyan-500/95 rounded-full p-2 shadow-lg">
                       <CheckIcon className="w-5 h-5" />
@@ -545,7 +567,15 @@ function Step4Summary({
         <h3 className="font-semibold text-slate-800 text-lg">الساعة المختارة</h3>
         <div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl bg-slate-100 shadow-lg">
           {selectedWatch ? (
-            <Image src={selectedWatch.image} alt={selectedWatch.name} fill className="object-cover object-center" />
+            <Image 
+              src={selectedWatch.image} 
+              alt={selectedWatch.name} 
+              fill 
+              className="object-cover object-center" 
+              priority
+              quality={90}
+              sizes="(max-width: 640px) 100vw, 50vw"
+            />
           ) : (
             <div className="grid place-items-center h-full text-slate-500">لم تقم باختيار ساعة</div>
           )}
@@ -553,9 +583,17 @@ function Step4Summary({
         </div>
       </div>
       <div className="space-y-4">
-        <h3 className="font-semibold text-slate-800 text-lg">صورة العلبة</h3>
+        <h3 className="font-semibold text-slate-800 text-lg">العلبة الفاخرة</h3>
         <div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl bg-slate-100 shadow-lg">
-          <Image src="/images/box/box.jpg" alt="صورة العلبة" fill className="object-cover object-center" />
+          <Image 
+            src="/images/box/box.jpg" 
+            alt="صورة العلبة الفاخرة" 
+            fill 
+            className="object-cover object-center" 
+            priority
+            quality={90}
+            sizes="(max-width: 640px) 100vw, 50vw"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
         </div>
       </div>
