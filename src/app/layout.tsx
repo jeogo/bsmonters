@@ -24,7 +24,7 @@ const tajawal = Tajawal({
 export const metadata: Metadata = {
   metadataBase: new URL("https://example.com"),
   title: {
-    default: "ساعات فاخرة بعرض خاص في الجزائر | اطلب ساعتك الآن مع توصيل سريع", // default root title
+    default: "الهدية الفاخرة | اطلب ساعتك الآن مع توصيل سريع", // default root title
     template: "%s | ساعات فاخرة في الجزائر" // used if child pages set a title
   },
   description:
