@@ -91,7 +91,7 @@ export default function RootLayout({
             }
           }
         `}</Script>
-        {/* Meta Pixel Code */}
+        {/* Meta Pixel Code (Updated Pixel ID: 1301109644932375) */}
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -102,14 +102,14 @@ export default function RootLayout({
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '613015005205444');
+            fbq('init', '1301109644932375');
             fbq('track', 'PageView');
           `}
         </Script>
         <noscript
           dangerouslySetInnerHTML={{
             __html:
-              '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=613015005205444&ev=PageView&noscript=1" alt="" />',
+              '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1301109644932375&ev=PageView&noscript=1" alt="" />',
           }}
         />
         {/* End Meta Pixel Code */}
